@@ -26,35 +26,35 @@
       },
       "suggestions": [
         {
-          "id": "action-1",
+          "id": "declare-incident-btn",
           "label": {
             "FR": "Déclarer un incident",
             "EN": "Report an incident"
           }
         },
         {
-          "id": "action-2",
+          "id": "get-invoice-btn",
           "label": {
             "FR": "Récupérer une facture",
             "EN": "Get an invoice"
           }
         },
         {
-          "id": "action-3",
+          "id": "track-claim-btn",
           "label": {
             "FR": "Suivre une réclamation",
             "EN": "Track a claim"
           }
         },
         {
-          "id": "action-4",
+          "id": "place-order-btn",
           "label": {
             "FR": "Passer une commande",
             "EN": "Place an order"
           }
         },
         {
-          "id": "action-5",
+          "id": "access-offers-btn",
           "label": {
             "FR": "Accéder à l'inventaire de mes offres",
             "EN": "Access my offers inventory"
@@ -69,7 +69,7 @@
         "EN": "In the history section of your claim details, you can check the status.\nEach time a customer advisor acts on your file, the status and/or date are updated.\nYou also receive emails informing you of key steps in the progress of your file.\n\nYou can also track your claim by clicking on the link below:"
       },
       "card": {
-        "id": "reclamation-link-btn",
+        "id": "view-invoices-btn",
         "title": {
           "FR": "Voir mes factures disponibles",
           "EN": "View my available invoices"
@@ -78,7 +78,7 @@
           "FR": "Description",
           "EN": "Description"
         },
-        "action": "LOAD_CREATE_INCIDENT"
+        "action": "VIEW_INVOICES"
       }
     },
     "link-opened": {
