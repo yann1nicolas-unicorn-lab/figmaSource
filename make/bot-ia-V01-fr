@@ -1,0 +1,236 @@
+{
+  "config": {
+    "defaultLanguage": "FR",
+    "supportedLanguages": ["FR", "EN"]
+  },
+  "header": {
+    "title": {
+      "FR": "Assistant IA Orange",
+      "EN": "Orange AI Assistant"
+    },
+    "badge": {
+      "FR": "Bêta",
+      "EN": "Beta"
+    }
+  },
+  "messages": {
+    "welcome": {
+      "type": "proposition",
+      "content": {
+        "FR": "Bonjour, je suis une version bêta de l'assistant IA. Je suis votre point d'entrée pour vos demandes de support et de gestion de services. Je vous aide à qualifier votre besoin, à accéder à la documentation pertinente et à initier les bonnes actions.",
+        "EN": "Hello, I am a beta version of the AI assistant. I am your entry point for your support and service management requests. I help you qualify your needs, access relevant documentation and initiate the right actions."
+      },
+      "subtitle": {
+        "FR": "Voici quelques suggestions de requêtes :",
+        "EN": "Here are some query suggestions:"
+      },
+      "suggestions": [
+        {
+          "id": "action-1",
+          "label": {
+            "FR": "Déclarer un incident",
+            "EN": "Report an incident"
+          }
+        },
+        {
+          "id": "action-2",
+          "label": {
+            "FR": "Récupérer une facture",
+            "EN": "Get an invoice"
+          }
+        },
+        {
+          "id": "action-3",
+          "label": {
+            "FR": "Suivre une réclamation",
+            "EN": "Track a claim"
+          }
+        },
+        {
+          "id": "action-4",
+          "label": {
+            "FR": "Passer une commande",
+            "EN": "Place an order"
+          }
+        },
+        {
+          "id": "action-5",
+          "label": {
+            "FR": "Accéder à l'inventaire de mes offres",
+            "EN": "Access my offers inventory"
+          }
+        }
+      ]
+    },
+    "response-with-card": {
+      "type": "reponse",
+      "content": {
+        "FR": "Dans la partie historique du détail de votre réclamation, vous pouvez consulter le statut.\nÀ chaque fois qu'un conseiller client agit sur votre dossier, l'état et/ou la date sont mis à jour.\nVous recevez aussi des e-mails vous informant des étapes clés de l'avancement de votre dossier.\n\nVous pouvez également suivre votre réclamation en cliquant sur le lien ci-dessous :",
+        "EN": "In the history section of your claim details, you can check the status.\nEach time a customer advisor acts on your file, the status and/or date are updated.\nYou also receive emails informing you of key steps in the progress of your file.\n\nYou can also track your claim by clicking on the link below:"
+      },
+      "card": {
+        "title": {
+          "FR": "Voir mes factures disponibles",
+          "EN": "View my available invoices"
+        },
+        "description": {
+          "FR": "Description",
+          "EN": "Description"
+        },
+        "action": "LOAD_CREATE_INCIDENT"
+      }
+    },
+    "link-opened": {
+      "type": "reponse",
+      "content": {
+        "FR": "← J'ai ouvert la page listant vos réclamations. Je reste accessible pendant toute la consultation.",
+        "EN": "← I opened the page listing your claims. I remain accessible throughout the consultation."
+      }
+    },
+    "out-of-scope": {
+      "type": "reponse",
+      "content": {
+        "FR": "Je suis désolé, je ne suis pas en capacité de vous aider à résoudre ce problème. Cette demande ne fait pas partie de mon champ de compétences.",
+        "EN": "I'm sorry, I'm not able to help you solve this problem. This request is not part of my area of expertise."
+      },
+      "subtitle": {
+        "FR": "Je peux vous proposer d'accéder au formulaire de contact ou à la liste des numéros de téléphone.",
+        "EN": "I can offer you access to the contact form or the list of phone numbers."
+      },
+      "cards": [
+        {
+          "title": {
+            "FR": "Accéder au formulaire de contact",
+            "EN": "Access the contact form"
+          },
+          "description": {
+            "FR": "Description ",
+            "EN": "Description "
+          },
+          "action": null
+        },
+        {
+          "title": {
+            "FR": "Accéder à la liste de numéros de téléphone",
+            "EN": "Access the phone numbers list"
+          },
+          "description": {
+            "FR": "Description ",
+            "EN": "Description "
+          },
+          "action": null
+        }
+      ],
+      "contactAdvisor": {
+        "subtitle": {
+          "FR": "Vous pouvez également contacter un conseiller via notre service en ligne. ",
+          "EN": "You can also contact an advisor via our online service. "
+        },
+        "card": {
+          "title": {
+            "FR": "Contacter un conseiller en ligne",
+            "EN": "Contact an online advisor"
+          },
+          "description": {
+            "FR": "Service disponible du lundi au vendredi de 8h30 à 18h (GMT+1)",
+            "EN": "Service available Monday to Friday from 8:30 AM to 6:00 PM (GMT+1)"
+          },
+          "action": null
+        }
+      }
+    },
+    "thinking": {
+      "type": "animation",
+      "ariaLabel": {
+        "FR": "Assistant en train de réfléchir",
+        "EN": "Assistant is thinking"
+      }
+    }
+  },
+  "feedback": {
+    "likeButton": {
+      "ariaLabel": {
+        "FR": "J'aime cette réponse",
+        "EN": "I like this answer"
+      }
+    },
+    "dislikeButton": {
+      "ariaLabel": {
+        "FR": "Je n'aime pas cette réponse",
+        "EN": "I don't like this answer"
+      }
+    },
+    "dislikeForm": {
+      "title": {
+        "FR": "Qu'est-ce qui ne va pas dans cette réponse ?",
+        "EN": "What's wrong with this answer?"
+      },
+      "subtitle": {
+        "FR": "Votre retour permettra d'améliorer la pertinence de l'Assistant IA",
+        "EN": "Your feedback will help improve the relevance of the AI Assistant"
+      },
+      "options": [
+        {
+          "id": "incorrect",
+          "label": {
+            "FR": "Réponse incorrecte",
+            "EN": "Incorrect answer"
+          }
+        },
+        {
+          "id": "difficult",
+          "label": {
+            "FR": "Réponse difficile à comprendre",
+            "EN": "Answer difficult to understand"
+          }
+        },
+        {
+          "id": "incomplete",
+          "label": {
+            "FR": "Ne répond pas entièrement à ma demande",
+            "EN": "Does not fully answer my request"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "FR": "Autre raison",
+            "EN": "Other reason"
+          },
+          "inputLabel": {
+            "FR": "Précisez votre choix",
+            "EN": "Specify your choice"
+          },
+          "inputPlaceholder": {
+            "FR": "Saisissez votre commentaire",
+            "EN": "Enter your comment"
+          },
+          "submitButton": {
+            "FR": "Envoyer ma réponse",
+            "EN": "Send my response"
+          }
+        }
+      ]
+    }
+  },
+  "input": {
+    "placeholder": {
+      "FR": "Posez votre question ou décrivez votre besoin",
+      "EN": "Ask your question or describe your need"
+    },
+    "sendButton": {
+      "ariaLabel": {
+        "FR": "Envoyer le message",
+        "EN": "Send message"
+      }
+    }
+  },
+  "userLabel": {
+    "FR": "Moi",
+    "EN": "Me"
+  },
+  "assistantLabel": {
+    "FR": "Assistant IA Orange",
+    "EN": "Orange AI Assistant"
+  }
+}
