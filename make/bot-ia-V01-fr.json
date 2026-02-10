@@ -1,240 +1,464 @@
 {
   "config": {
     "defaultLanguage": "FR",
-    "supportedLanguages": ["FR", "EN"]
+    "supportedLanguages": ["FR", "EN"],
+    "thinkingDelay": 3000,
+    "version": "1.0.0"
   },
-  "header": {
-    "title": {
-      "FR": "Assistant IA Orange",
-      "EN": "Orange AI Assistant"
+  
+  "common": {
+    "header": {
+      "title": {
+        "FR": "Assistant IA Orange",
+        "EN": "Orange AI Assistant"
+      },
+      "badge": {
+        "FR": "Bêta",
+        "EN": "Beta"
+      }
     },
-    "badge": {
-      "FR": "Bêta",
-      "EN": "Beta"
-    }
-  },
-  "messages": {
-    "welcome": {
-      "type": "proposition",
-      "content": {
-        "FR": "Bonjour, je suis une version bêta de l'assistant IA. Je suis votre point d'entrée pour vos demandes de support et de gestion de services. Je vous aide à qualifier votre besoin, à accéder à la documentation pertinente et à initier les bonnes actions.",
-        "EN": "Hello, I am a beta version of the AI assistant. I am your entry point for your support and service management requests. I help you qualify your needs, access relevant documentation and initiate the right actions."
+    
+    "labels": {
+      "user": {
+        "FR": "Moi",
+        "EN": "Me"
       },
-      "subtitle": {
-        "FR": "Voici quelques suggestions de requêtes :",
-        "EN": "Here are some query suggestions:"
+      "assistant": {
+        "FR": "Assistant IA Orange",
+        "EN": "Orange AI Assistant"
+      }
+    },
+    
+    "input": {
+      "placeholder": {
+        "FR": "Posez votre question ou décrivez votre besoin",
+        "EN": "Ask your question or describe your need"
       },
-      "suggestions": [
-        {
-          "id": "declare-incident-btn",
-          "label": {
-            "FR": "Déclarer un incident",
-            "EN": "Report an incident"
-          }
-        },
-        {
-          "id": "get-invoice-btn",
-          "label": {
-            "FR": "Récupérer une facture",
-            "EN": "Get an invoice"
-          }
-        },
-        {
-          "id": "track-claim-btn",
-          "label": {
-            "FR": "Suivre une réclamation",
-            "EN": "Track a claim"
-          }
-        },
-        {
-          "id": "place-order-btn",
-          "label": {
-            "FR": "Passer une commande",
-            "EN": "Place an order"
-          }
-        },
-        {
-          "id": "access-offers-btn",
-          "label": {
-            "FR": "Accéder à l'inventaire de mes offres",
-            "EN": "Access my offers inventory"
-          }
+      "sendButton": {
+        "ariaLabel": {
+          "FR": "Envoyer le message",
+          "EN": "Send message"
         }
-      ]
+      }
     },
-    "response-with-card": {
-      "type": "reponse",
-      "content": {
-        "FR": "Dans la partie historique du détail de votre réclamation, vous pouvez consulter le statut.\nÀ chaque fois qu'un conseiller client agit sur votre dossier, l'état et/ou la date sont mis à jour.\nVous recevez aussi des e-mails vous informant des étapes clés de l'avancement de votre dossier.\n\nVous pouvez également suivre votre réclamation en cliquant sur le lien ci-dessous :",
-        "EN": "In the history section of your claim details, you can check the status.\nEach time a customer advisor acts on your file, the status and/or date are updated.\nYou also receive emails informing you of key steps in the progress of your file.\n\nYou can also track your claim by clicking on the link below:"
+    
+    "feedback": {
+      "likeButton": {
+        "ariaLabel": {
+          "FR": "J'aime cette réponse",
+          "EN": "I like this answer"
+        }
       },
-      "card": {
-        "id": "view-invoices-btn",
+      "dislikeButton": {
+        "ariaLabel": {
+          "FR": "Je n'aime pas cette réponse",
+          "EN": "I don't like this answer"
+        }
+      },
+      "dislikeForm": {
         "title": {
-          "FR": "Voir mes factures disponibles",
-          "EN": "View my available invoices"
+          "FR": "Qu'est-ce qui ne va pas dans cette réponse ?",
+          "EN": "What's wrong with this answer?"
         },
-        "description": {
-          "FR": "Description",
-          "EN": "Description"
-        },
-        "action": "VIEW_INVOICES"
-      }
-    },
-    "link-opened": {
-      "type": "reponse",
-      "content": {
-        "FR": "← J'ai ouvert la page listant vos réclamations. Je reste accessible pendant toute la consultation.",
-        "EN": "← I opened the page listing your claims. I remain accessible throughout the consultation."
-      }
-    },
-    "out-of-scope": {
-      "type": "reponse",
-      "content": {
-        "FR": "Je suis désolé, je ne suis pas en capacité de vous aider à résoudre ce problème. Cette demande ne fait pas partie de mon champ de compétences.",
-        "EN": "I'm sorry, I'm not able to help you solve this problem. This request is not part of my area of expertise."
-      },
-      "subtitle": {
-        "FR": "Je peux vous proposer d'accéder au formulaire de contact ou à la liste des numéros de téléphone.",
-        "EN": "I can offer you access to the contact form or the list of phone numbers."
-      },
-      "cards": [
-        {
-          "id": "contact-form-btn",
-          "title": {
-            "FR": "Accéder au formulaire de contact",
-            "EN": "Access the contact form"
-          },
-          "description": {
-            "FR": "Description ",
-            "EN": "Description "
-          },
-          "action": null
-        },
-        {
-          "id": "phone-list-btn",
-          "title": {
-            "FR": "Accéder à la liste de numéros de téléphone",
-            "EN": "Access the phone numbers list"
-          },
-          "description": {
-            "FR": "Description ",
-            "EN": "Description "
-          },
-          "action": null
-        }
-      ],
-      "contactAdvisor": {
         "subtitle": {
-          "FR": "Vous pouvez également contacter un conseiller via notre service en ligne. ",
-          "EN": "You can also contact an advisor via our online service. "
+          "FR": "Votre retour permettra d'améliorer la pertinence de l'Assistant IA",
+          "EN": "Your feedback will help improve the relevance of the AI Assistant"
         },
-        "card": {
-          "id": "contact-advisor-btn",
-          "title": {
-            "FR": "Contacter un conseiller en ligne",
-            "EN": "Contact an online advisor"
+        "options": [
+          {
+            "id": "incorrect",
+            "label": {
+              "FR": "Réponse incorrecte",
+              "EN": "Incorrect answer"
+            }
           },
-          "description": {
-            "FR": "Service disponible du lundi au vendredi de 8h30 à 18h (GMT+1)",
-            "EN": "Service available Monday to Friday from 8:30 AM to 6:00 PM (GMT+1)"
+          {
+            "id": "difficult",
+            "label": {
+              "FR": "Réponse difficile à comprendre",
+              "EN": "Answer difficult to understand"
+            }
           },
-          "action": null
-        }
+          {
+            "id": "incomplete",
+            "label": {
+              "FR": "Ne répond pas entièrement à ma demande",
+              "EN": "Does not fully answer my request"
+            }
+          },
+          {
+            "id": "other",
+            "label": {
+              "FR": "Autre raison",
+              "EN": "Other reason"
+            },
+            "inputLabel": {
+              "FR": "Précisez votre choix",
+              "EN": "Specify your choice"
+            },
+            "inputPlaceholder": {
+              "FR": "Saisissez votre commentaire",
+              "EN": "Enter your comment"
+            },
+            "submitButton": {
+              "FR": "Envoyer ma réponse",
+              "EN": "Send my response"
+            }
+          }
+        ]
       }
     },
+    
     "thinking": {
-      "type": "animation",
       "ariaLabel": {
         "FR": "Assistant en train de réfléchir",
         "EN": "Assistant is thinking"
       }
     }
   },
-  "feedback": {
-    "likeButton": {
-      "ariaLabel": {
-        "FR": "J'aime cette réponse",
-        "EN": "I like this answer"
-      }
+  
+  "welcome": {
+    "content": {
+      "FR": "Bonjour, je suis une version bêta de l'assistant IA. Je suis votre point d'entrée pour vos demandes de support et de gestion de services. Je vous aide à qualifier votre besoin, à accéder à la documentation pertinente et à initier les bonnes actions.",
+      "EN": "Hello, I am a beta version of the AI assistant. I am your entry point for your support and service management requests. I help you qualify your needs, access relevant documentation and initiate the right actions."
     },
-    "dislikeButton": {
-      "ariaLabel": {
-        "FR": "Je n'aime pas cette réponse",
-        "EN": "I don't like this answer"
-      }
+    "subtitle": {
+      "FR": "Voici quelques suggestions de requêtes :",
+      "EN": "Here are some query suggestions:"
     },
-    "dislikeForm": {
-      "title": {
-        "FR": "Qu'est-ce qui ne va pas dans cette réponse ?",
-        "EN": "What's wrong with this answer?"
+    "suggestions": [
+      {
+        "id": "declare-incident-btn",
+        "flow": "declare-incident",
+        "label": {
+          "FR": "Déclarer un incident",
+          "EN": "Report an incident"
+        }
       },
-      "subtitle": {
-        "FR": "Votre retour permettra d'améliorer la pertinence de l'Assistant IA",
-        "EN": "Your feedback will help improve the relevance of the AI Assistant"
+      {
+        "id": "get-invoice-btn",
+        "flow": "get-invoice",
+        "label": {
+          "FR": "Récupérer une facture",
+          "EN": "Get an invoice"
+        }
       },
-      "options": [
+      {
+        "id": "track-claim-btn",
+        "flow": "track-claim",
+        "label": {
+          "FR": "Suivre une réclamation",
+          "EN": "Track a claim"
+        }
+      },
+      {
+        "id": "place-order-btn",
+        "flow": "place-order",
+        "label": {
+          "FR": "Passer une commande",
+          "EN": "Place an order"
+        }
+      },
+      {
+        "id": "access-offers-btn",
+        "flow": "access-offers",
+        "label": {
+          "FR": "Accéder à l'inventaire de mes offres",
+          "EN": "Access my offers inventory"
+        }
+      }
+    ]
+  },
+  
+  "flows": {
+    "declare-incident": {
+      "name": {
+        "FR": "Déclaration d'incident",
+        "EN": "Incident report"
+      },
+      "steps": [
         {
-          "id": "incorrect",
-          "label": {
-            "FR": "Réponse incorrecte",
-            "EN": "Incorrect answer"
+          "id": "step-1",
+          "type": "ai-response-with-card",
+          "content": {
+            "FR": "Pour déclarer un incident, je vous invite à remplir le formulaire dédié.\n\nVous pourrez décrire votre problème en détail et joindre des captures d'écran si nécessaire.\n\nUn numéro de ticket vous sera attribué pour suivre l'avancement de votre demande.",
+            "EN": "To report an incident, I invite you to fill out the dedicated form.\n\nYou will be able to describe your problem in detail and attach screenshots if necessary.\n\nA ticket number will be assigned to you to track the progress of your request."
+          },
+          "card": {
+            "id": "declare-incident-form-btn",
+            "title": {
+              "FR": "Accéder au formulaire d'incident",
+              "EN": "Access incident form"
+            },
+            "description": {
+              "FR": "Ouvrir le formulaire de déclaration",
+              "EN": "Open declaration form"
+            },
+            "postMessageType": "OPEN_INCIDENT_FORM",
+            "postMessagePayload": {
+              "action": "open",
+              "form": "incident",
+              "source": "chatbot"
+            }
           }
         },
         {
-          "id": "difficult",
-          "label": {
-            "FR": "Réponse difficile à comprendre",
-            "EN": "Answer difficult to understand"
+          "id": "step-2",
+          "type": "ai-confirmation",
+          "content": {
+            "FR": "← J'ai ouvert le formulaire de déclaration d'incident. Je reste disponible si vous avez besoin d'aide.",
+            "EN": "← I opened the incident declaration form. I remain available if you need help."
+          }
+        }
+      ]
+    },
+    
+    "get-invoice": {
+      "name": {
+        "FR": "Récupération de facture",
+        "EN": "Invoice retrieval"
+      },
+      "steps": [
+        {
+          "id": "step-1",
+          "type": "ai-response-with-card",
+          "content": {
+            "FR": "Vous pouvez consulter et télécharger vos factures depuis votre espace client.\n\nLes factures sont disponibles au format PDF et sont archivées sur 24 mois.\n\nCliquez sur le bouton ci-dessous pour accéder à vos factures.",
+            "EN": "You can view and download your invoices from your customer area.\n\nInvoices are available in PDF format and are archived for 24 months.\n\nClick the button below to access your invoices."
+          },
+          "card": {
+            "id": "view-invoices-btn",
+            "title": {
+              "FR": "Voir mes factures",
+              "EN": "View my invoices"
+            },
+            "description": {
+              "FR": "Accéder à la liste de mes factures",
+              "EN": "Access my invoice list"
+            },
+            "postMessageType": "OPEN_INVOICES_PAGE",
+            "postMessagePayload": {
+              "action": "navigate",
+              "page": "invoices",
+              "source": "chatbot"
+            }
           }
         },
         {
-          "id": "incomplete",
-          "label": {
-            "FR": "Ne répond pas entièrement à ma demande",
-            "EN": "Does not fully answer my request"
+          "id": "step-2",
+          "type": "ai-confirmation",
+          "content": {
+            "FR": "← J'ai ouvert la page de vos factures. Vous pouvez les consulter et les télécharger.",
+            "EN": "← I opened your invoices page. You can view and download them."
+          }
+        }
+      ]
+    },
+    
+    "track-claim": {
+      "name": {
+        "FR": "Suivi de réclamation",
+        "EN": "Claim tracking"
+      },
+      "steps": [
+        {
+          "id": "step-1",
+          "type": "ai-response-with-card",
+          "content": {
+            "FR": "Dans la partie historique du détail de votre réclamation, vous pouvez consulter le statut.\n\nÀ chaque fois qu'un conseiller client agit sur votre dossier, l'état et/ou la date sont mis à jour.\n\nVous recevez aussi des e-mails vous informant des étapes clés de l'avancement de votre dossier.\n\nCliquez ci-dessous pour accéder au suivi de vos réclamations.",
+            "EN": "In the history section of your claim details, you can check the status.\n\nEach time a customer advisor acts on your file, the status and/or date are updated.\n\nYou also receive emails informing you of key steps in the progress of your file.\n\nClick below to access your claims tracking."
+          },
+          "card": {
+            "id": "track-claims-btn",
+            "title": {
+              "FR": "Suivre mes réclamations",
+              "EN": "Track my claims"
+            },
+            "description": {
+              "FR": "Voir l'état de mes réclamations",
+              "EN": "View my claims status"
+            },
+            "postMessageType": "OPEN_CLAIMS_PAGE",
+            "postMessagePayload": {
+              "action": "navigate",
+              "page": "claims",
+              "source": "chatbot"
+            }
           }
         },
         {
-          "id": "other",
-          "label": {
-            "FR": "Autre raison",
-            "EN": "Other reason"
+          "id": "step-2",
+          "type": "ai-confirmation",
+          "content": {
+            "FR": "← J'ai ouvert la page de suivi de vos réclamations. Je reste accessible pendant toute la consultation.",
+            "EN": "← I opened your claims tracking page. I remain accessible throughout the consultation."
+          }
+        }
+      ]
+    },
+    
+    "place-order": {
+      "name": {
+        "FR": "Passage de commande",
+        "EN": "Order placement"
+      },
+      "steps": [
+        {
+          "id": "step-1",
+          "type": "ai-response-with-card",
+          "content": {
+            "FR": "Pour passer une commande, vous pouvez accéder à notre catalogue de produits et services.\n\nVous y trouverez l'ensemble de nos offres avec leurs tarifs détaillés.\n\nUne fois votre sélection effectuée, vous pourrez finaliser votre commande en ligne.",
+            "EN": "To place an order, you can access our product and service catalog.\n\nYou will find all our offers with their detailed prices.\n\nOnce your selection is made, you can finalize your order online."
           },
-          "inputLabel": {
-            "FR": "Précisez votre choix",
-            "EN": "Specify your choice"
+          "card": {
+            "id": "place-order-btn",
+            "title": {
+              "FR": "Accéder au catalogue",
+              "EN": "Access catalog"
+            },
+            "description": {
+              "FR": "Découvrir nos produits et services",
+              "EN": "Discover our products and services"
+            },
+            "postMessageType": "OPEN_CATALOG_PAGE",
+            "postMessagePayload": {
+              "action": "navigate",
+              "page": "catalog",
+              "source": "chatbot"
+            }
+          }
+        },
+        {
+          "id": "step-2",
+          "type": "ai-confirmation",
+          "content": {
+            "FR": "← J'ai ouvert le catalogue. Parcourez nos offres et n'hésitez pas à revenir vers moi si besoin.",
+            "EN": "← I opened the catalog. Browse our offers and feel free to come back to me if needed."
+          }
+        }
+      ]
+    },
+    
+    "access-offers": {
+      "name": {
+        "FR": "Inventaire des offres",
+        "EN": "Offers inventory"
+      },
+      "steps": [
+        {
+          "id": "step-1",
+          "type": "ai-response-with-card",
+          "content": {
+            "FR": "Vous pouvez consulter l'inventaire complet de vos offres et services actifs.\n\nCette page vous permet de voir en détail tous vos contrats, leurs dates d'échéance et leurs caractéristiques.\n\nVous pouvez également effectuer des modifications sur vos offres depuis cet espace.",
+            "EN": "You can view the complete inventory of your active offers and services.\n\nThis page allows you to see in detail all your contracts, their expiration dates and their characteristics.\n\nYou can also make changes to your offers from this space."
           },
-          "inputPlaceholder": {
-            "FR": "Saisissez votre commentaire",
-            "EN": "Enter your comment"
+          "card": {
+            "id": "access-offers-inventory-btn",
+            "title": {
+              "FR": "Voir mon inventaire",
+              "EN": "View my inventory"
+            },
+            "description": {
+              "FR": "Accéder à la liste de mes offres",
+              "EN": "Access my offers list"
+            },
+            "postMessageType": "OPEN_OFFERS_PAGE",
+            "postMessagePayload": {
+              "action": "navigate",
+              "page": "offers-inventory",
+              "source": "chatbot"
+            }
+          }
+        },
+        {
+          "id": "step-2",
+          "type": "ai-confirmation",
+          "content": {
+            "FR": "← J'ai ouvert votre inventaire d'offres. Je reste disponible pour vous assister.",
+            "EN": "← I opened your offers inventory. I remain available to assist you."
+          }
+        }
+      ]
+    },
+    
+    "out-of-scope": {
+      "name": {
+        "FR": "Hors périmètre",
+        "EN": "Out of scope"
+      },
+      "steps": [
+        {
+          "id": "step-1",
+          "type": "ai-response-with-alternatives",
+          "content": {
+            "FR": "Je suis désolé, je ne suis pas en capacité de vous aider à résoudre ce problème. Cette demande ne fait pas partie de mon champ de compétences.",
+            "EN": "I'm sorry, I'm not able to help you solve this problem. This request is not part of my area of expertise."
           },
-          "submitButton": {
-            "FR": "Envoyer ma réponse",
-            "EN": "Send my response"
+          "subtitle": {
+            "FR": "Je peux vous proposer d'accéder au formulaire de contact ou à la liste des numéros de téléphone.",
+            "EN": "I can offer you access to the contact form or the list of phone numbers."
+          },
+          "alternatives": [
+            {
+              "id": "contact-form-btn",
+              "title": {
+                "FR": "Accéder au formulaire de contact",
+                "EN": "Access the contact form"
+              },
+              "description": {
+                "FR": "Envoyer un message détaillé",
+                "EN": "Send a detailed message"
+              },
+              "postMessageType": "OPEN_CONTACT_FORM",
+              "postMessagePayload": {
+                "action": "open",
+                "form": "contact",
+                "source": "chatbot"
+              }
+            },
+            {
+              "id": "phone-list-btn",
+              "title": {
+                "FR": "Accéder à la liste de numéros de téléphone",
+                "EN": "Access the phone numbers list"
+              },
+              "description": {
+                "FR": "Contacter par téléphone",
+                "EN": "Contact by phone"
+              },
+              "postMessageType": "OPEN_PHONE_LIST",
+              "postMessagePayload": {
+                "action": "open",
+                "page": "phone-numbers",
+                "source": "chatbot"
+              }
+            }
+          ],
+          "contactAdvisor": {
+            "subtitle": {
+              "FR": "Vous pouvez également contacter un conseiller via notre service en ligne.",
+              "EN": "You can also contact an advisor via our online service."
+            },
+            "card": {
+              "id": "contact-advisor-btn",
+              "title": {
+                "FR": "Contacter un conseiller en ligne",
+                "EN": "Contact an online advisor"
+              },
+              "description": {
+                "FR": "Service disponible du lundi au vendredi de 8h30 à 18h (GMT+1)",
+                "EN": "Service available Monday to Friday from 8:30 AM to 6:00 PM (GMT+1)"
+              },
+              "postMessageType": "OPEN_LIVE_CHAT",
+              "postMessagePayload": {
+                "action": "open",
+                "service": "live-chat",
+                "source": "chatbot"
+              }
+            }
           }
         }
       ]
     }
-  },
-  "input": {
-    "placeholder": {
-      "FR": "Posez votre question ou décrivez votre besoin",
-      "EN": "Ask your question or describe your need"
-    },
-    "sendButton": {
-      "ariaLabel": {
-        "FR": "Envoyer le message",
-        "EN": "Send message"
-      }
-    }
-  },
-  "userLabel": {
-    "FR": "Moi",
-    "EN": "Me"
-  },
-  "assistantLabel": {
-    "FR": "Assistant IA Orange",
-    "EN": "Orange AI Assistant"
   }
 }
