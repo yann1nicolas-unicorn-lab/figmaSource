@@ -13,8 +13,8 @@
         "EN": "Orange AI Assistant"
       },
       "badge": {
-        "FR": "Bêta V0.1",
-        "EN": "Beta V0.1"
+        "FR": "Bêta",
+        "EN": "Beta"
       }
     },
     
@@ -176,6 +176,10 @@
         "FR": "Déclaration d'incident",
         "EN": "Incident report"
       },
+      "keywords": {
+        "FR": ["incident", "déclarer", "alerte", "déclaration", "problème", "bug", "panne", "erreur", "dysfonctionnement", "signaler"],
+        "EN": ["incident", "report", "declare", "alert", "problem", "bug", "issue", "error", "malfunction", "breakdown"]
+      },
       "steps": [
         {
           "id": "step-1",
@@ -217,6 +221,10 @@
       "name": {
         "FR": "Récupération de facture",
         "EN": "Invoice retrieval"
+      },
+      "keywords": {
+        "FR": ["facture", "récupérer", "télécharger", "consulter", "paiement", "reçu", "justificatif", "pdf", "document"],
+        "EN": ["invoice", "bill", "retrieve", "download", "payment", "receipt", "document", "pdf", "billing"]
       },
       "steps": [
         {
@@ -260,6 +268,10 @@
         "FR": "Suivi de réclamation",
         "EN": "Claim tracking"
       },
+      "keywords": {
+        "FR": ["réclamation", "suivre", "suivi", "plainte", "contestation", "litige", "dossier", "statut", "état"],
+        "EN": ["claim", "track", "tracking", "complaint", "dispute", "case", "status", "follow-up", "litigation"]
+      },
       "steps": [
         {
           "id": "step-1",
@@ -302,6 +314,10 @@
         "FR": "Passage de commande",
         "EN": "Order placement"
       },
+      "keywords": {
+        "FR": ["commande", "commander", "acheter", "achat", "passer", "catalogue", "produit", "service", "offre"],
+        "EN": ["order", "purchase", "buy", "catalog", "product", "service", "offer", "shopping", "place"]
+      },
       "steps": [
         {
           "id": "step-1",
@@ -311,7 +327,7 @@
             "EN": "To place an order, you can access our product and service catalog.\n\nYou will find all our offers with their detailed prices.\n\nOnce your selection is made, you can finalize your order online."
           },
           "card": {
-            "id": "place-order-btn",
+            "id": "open-catalog-btn",
             "title": {
               "FR": "Accéder au catalogue",
               "EN": "Access catalog"
@@ -343,6 +359,10 @@
       "name": {
         "FR": "Inventaire des offres",
         "EN": "Offers inventory"
+      },
+      "keywords": {
+        "FR": ["inventaire", "offre", "offres", "contrat", "abonnement", "souscription", "mes offres", "services actifs", "consulter"],
+        "EN": ["inventory", "offer", "offers", "contract", "subscription", "my offers", "active services", "view"]
       },
       "steps": [
         {
