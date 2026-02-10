@@ -69,6 +69,7 @@
         "EN": "In the history section of your claim details, you can check the status.\nEach time a customer advisor acts on your file, the status and/or date are updated.\nYou also receive emails informing you of key steps in the progress of your file.\n\nYou can also track your claim by clicking on the link below:"
       },
       "card": {
+        "id": "reclamation-link-btn",
         "title": {
           "FR": "Voir mes factures disponibles",
           "EN": "View my available invoices"
@@ -99,6 +100,7 @@
       },
       "cards": [
         {
+          "id": "contact-form-btn",
           "title": {
             "FR": "Accéder au formulaire de contact",
             "EN": "Access the contact form"
@@ -110,6 +112,7 @@
           "action": null
         },
         {
+          "id": "phone-list-btn",
           "title": {
             "FR": "Accéder à la liste de numéros de téléphone",
             "EN": "Access the phone numbers list"
@@ -127,6 +130,7 @@
           "EN": "You can also contact an advisor via our online service. "
         },
         "card": {
+          "id": "contact-advisor-btn",
           "title": {
             "FR": "Contacter un conseiller en ligne",
             "EN": "Contact an online advisor"
