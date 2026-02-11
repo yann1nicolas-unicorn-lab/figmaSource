@@ -253,7 +253,7 @@
                 "id": "business-ethernet-serie-2",
                 "level": 2,
                 "order": 2,
-                "status": "disabled",
+                "status": "active",
                 "label": {
                   "en": "Business Ethernet Série 2",
                   "fr": "Business Ethernet Série 2"
@@ -262,15 +262,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "",
-                  "fr": ""
+                  "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2129%3A114943&node-id=2784-133023&viewport=1051%2C1087%2C0.05&starting-point-node-id=2784%3A133023&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+                  "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2129%3A114943&node-id=2129-117726&viewport=1601%2C1925%2C0.09&starting-point-node-id=2129%3A117726&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
                 }
               },
               "business-vpn-france": {
                 "id": "business-vpn-france",
                 "level": 2,
                 "order": 3,
-                "status": "disabled",
+                "status": "active",
                 "label": {
                   "en": "Business VPN - France",
                   "fr": "Business VPN - France"
@@ -279,8 +279,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "",
-                  "fr": ""
+                  "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A109002&node-id=2766-42097&viewport=1438%2C1272%2C0.07&starting-point-node-id=2766%3A42097&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+                  "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A109002&node-id=2122-111785&viewport=4953%2C5367%2C0.28&starting-point-node-id=2122%3A111785&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
                 }
               },
               "business-vpn-international": {
@@ -296,8 +296,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "",
-                  "fr": ""
+                  "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A149172&node-id=2122-151955&viewport=7384%2C7209%2C0.38&starting-point-node-id=2122%3A151955&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+                  "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Journey-MMP-PI8?Page-id=2122%3A149172&node-id=2779-83989&viewport=1383%2C1819%2C0.06&starting-point-node-id=2779%3A83989&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
                 }
               },
               "flexible-computing-advanced-hds": {
@@ -572,7 +572,7 @@
                 "id": "business-talk-ip-france",
                 "level": 2,
                 "order": 2,
-                "status": "disabled",
+                "status": "active",
                 "label": {
                   "en": "Business Talk IP - France",
                   "fr": "Business Talk IP - France"
@@ -581,15 +581,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "",
-                  "fr": ""
+                  "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A68832&node-id=3289-77632&viewport=2030%2C1504%2C0.11&starting-point-node-id=3289%3A77632&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+                  "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A68832&node-id=2122-71615&viewport=2626%2C2469%2C0.12&starting-point-node-id=2122%3A71615&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
                 }
               },
               "business-talk-international": {
                 "id": "business-talk-international",
                 "level": 2,
                 "order": 3,
-                "status": "disabled",
+                "status": "active",
                 "label": {
                   "en": "Business Talk - International",
                   "fr": "Business Talk - International"
@@ -598,8 +598,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "",
-                  "fr": ""
+                  "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2129%3A195283&node-id=3283-43093&viewport=1654%2C1196%2C0.08&starting-point-node-id=3283%3A43093&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+                  "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2129%3A195283&node-id=2129-198066&viewport=623%2C628%2C0.03&starting-point-node-id=2129%3A198066&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
                 }
               },
               "business-internet-voix": {
@@ -2299,14 +2299,14 @@
             "closePanels": true,
             "url": {
               "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=3325%3A356204&node-id=3325-360344&viewport=414%2C745%2C0.07&starting-point-node-id=3325%3A360344&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
-              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=3325%3A356204&node-id=3325-360344&viewport=414%2C745%2C0.07&starting-point-node-id=3325%3A360344&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
+              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2048%3A46&node-id=2129-371519&viewport=1986%2C2440%2C0.26&starting-point-node-id=2129%3A371519&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
             }
           },
           "my-incidents": {
             "id": "my-incidents",
             "level": 1,
             "order": 2,
-            "status": "disabled",
+            "status": "active",
             "label": {
               "en": "My Incidents",
               "fr": "Mes incidents"
@@ -2315,8 +2315,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "",
-              "fr": ""
+              "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=3325%3A356204&node-id=3325-356590&viewport=414%2C745%2C0.07&starting-point-node-id=3325%3A360322&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2048%3A46&node-id=2129-371341&viewport=1986%2C2440%2C0.26&starting-point-node-id=2129%3A371341&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
             }
           },
           "incident-dashboard": {
@@ -2512,7 +2512,7 @@
             "id": "network-monitoring",
             "level": 1,
             "order": 1,
-            "status": "disabled",
+            "status": "active",
             "label": {
               "en": "Network Monitoring",
               "fr": "Network Monitoring"
@@ -2521,15 +2521,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "",
-              "fr": ""
+              "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2066%3A35554&node-id=2129-371163&viewport=3412%2C1634%2C0.14&starting-point-node-id=2129%3A371163&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2066%3A35554&node-id=2129-371163&viewport=3412%2C1634%2C0.14&starting-point-node-id=2129%3A371163&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
             }
           },
           "usage-et-performance": {
             "id": "usage-et-performance",
             "level": 1,
             "order": 2,
-            "status": "disabled",
+            "status": "active",
             "label": {
               "en": "Usage et performance",
               "fr": "Usage et performance"
@@ -2538,8 +2538,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "",
-              "fr": ""
+              "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2245%3A110655&node-id=2245-110883&viewport=4032%2C492%2C0.17&starting-point-node-id=2245%3A110883&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2245%3A110655&node-id=2245-110883&viewport=4032%2C492%2C0.17&starting-point-node-id=2245%3A110883&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
             }
           },
           "monthly-reports": {
