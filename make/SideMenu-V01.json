@@ -1,0 +1,1476 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "lastUpdate": "2025-02-11T10:30:00Z",
+    "author": "Admin Team",
+    "environment": "production"
+  },
+  "config": {
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "fr"]
+  },
+  "icons": {
+    "home": "p176d4100",
+    "inventory": "p12d68af0",
+    "ordering": "p312f9500",
+    "billing": "p20079df0",
+    "incident": "p11756c00",
+    "maintenance": "p1e6f7b00",
+    "changes": "p1e0e500",
+    "reporting": "p1a1e0080",
+    "administration": "p1252a800",
+    "evolution": "p3bdebe00"
+  },
+  "menus": {
+    "home": {
+      "id": "home",
+      "icon": "home",
+      "order": 1,
+      "status": "active",
+      "label": {
+        "en": "Home",
+        "fr": "Accueil"
+      },
+      "type": "link",
+      "target": "iframe",
+      "closePanels": true,
+      "url": {
+        "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=0%3A1&node-id=2066-136996&viewport=1516%2C354%2C0.13&starting-point-node-id=2122%3A21565&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+        "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=0%3A1&node-id=2066-136996&viewport=1516%2C354%2C0.13&starting-point-node-id=2122%3A21565&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
+      }
+    },
+    "inventory": {
+      "id": "inventory",
+      "icon": "inventory",
+      "order": 2,
+      "status": "active",
+      "label": {
+        "en": "Inventory",
+        "fr": "Inventaire"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Inventory",
+          "fr": "Inventaire"
+        },
+        "items": {
+          "360-view": {
+            "id": "360-view",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "360 view",
+              "fr": "Vue 360"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW?locale=fr"
+            }
+          },
+          "collaboration": {
+            "id": "collaboration",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "Collaboration and remote working",
+              "fr": "Collaboration et télétravail"
+            },
+            "type": "submenu",
+            "items": {
+              "360-view-collab": {
+                "id": "360-view-collab",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "360 view",
+                  "fr": "Vue 360"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_COLLAB_360?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_COLLAB_360?locale=fr"
+                }
+              },
+              "business-together-microsoft": {
+                "id": "business-together-microsoft",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Business Together Microsoft",
+                  "fr": "Business Together Microsoft"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BTM?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BTM?locale=fr"
+                }
+              },
+              "working-together": {
+                "id": "working-together",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Working Together",
+                  "fr": "Working Together"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A189342&node-id=3303-109741&viewport=1443%2C1185%2C0.06&starting-point-node-id=3303%3A109741&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+                  "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=2122%3A189342&node-id=3303-109741&viewport=1443%2C1185%2C0.06&starting-point-node-id=3303%3A109741&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
+                }
+              },
+              "audio-web-conferencing": {
+                "id": "audio-web-conferencing",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Audio and Web Conferencing",
+                  "fr": "Audio et conférence Web"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_AUDIO_WEB?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_AUDIO_WEB?locale=fr"
+                }
+              },
+              "b2gaas": {
+                "id": "b2gaas",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "B2GAAS",
+                  "fr": "B2GAAS"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_B2GAAS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_B2GAAS?locale=fr"
+                }
+              },
+              "flexible-365": {
+                "id": "flexible-365",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Flexible 365",
+                  "fr": "Flexible 365"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_365?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_365?locale=fr"
+                }
+              },
+              "workplace-together-essentials": {
+                "id": "workplace-together-essentials",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Workplace Together Essentials",
+                  "fr": "Workplace Together Essentials"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_WTE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_WTE?locale=fr"
+                }
+              },
+              "workplace-together-webex": {
+                "id": "workplace-together-webex",
+                "level": 2,
+                "order": 8,
+                "status": "active",
+                "label": {
+                  "en": "Workplace Together Webex",
+                  "fr": "Workplace Together Webex"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_WTW?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_WTW?locale=fr"
+                }
+              },
+              "label": {
+                "id": "label",
+                "level": 2,
+                "order": 9,
+                "status": "active",
+                "label": {
+                  "en": "Label",
+                  "fr": "Label"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_LABEL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_LABEL?locale=fr"
+                }
+              }
+            }
+          },
+          "internet": {
+            "id": "internet",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Internet and networks",
+              "fr": "Internet et réseaux"
+            },
+            "type": "submenu",
+            "items": {
+              "internet-access": {
+                "id": "internet-access",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Internet Access",
+                  "fr": "Accès Internet"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_INTERNET_ACCESS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_INTERNET_ACCESS?locale=fr"
+                }
+              },
+              "vpn-services": {
+                "id": "vpn-services",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "VPN Services",
+                  "fr": "Services VPN"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_VPN?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_VPN?locale=fr"
+                }
+              }
+            }
+          },
+          "telephony": {
+            "id": "telephony",
+            "level": 1,
+            "order": 4,
+            "status": "active",
+            "label": {
+              "en": "Fixed-line and VoIP telephony",
+              "fr": "Téléphonie fixe et VoIP"
+            },
+            "type": "submenu",
+            "items": {
+              "voip-solutions": {
+                "id": "voip-solutions",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "VoIP Solutions",
+                  "fr": "Solutions VoIP"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_VOIP?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_VOIP?locale=fr"
+                }
+              },
+              "fixed-line": {
+                "id": "fixed-line",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Fixed Line",
+                  "fr": "Ligne fixe"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FIXED_LINE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FIXED_LINE?locale=fr"
+                }
+              }
+            }
+          },
+          "cloud": {
+            "id": "cloud",
+            "level": 1,
+            "order": 5,
+            "status": "active",
+            "label": {
+              "en": "Cloud",
+              "fr": "Cloud"
+            },
+            "type": "submenu",
+            "items": {
+              "cloud-storage": {
+                "id": "cloud-storage",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Storage",
+                  "fr": "Stockage Cloud"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_STORAGE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_STORAGE?locale=fr"
+                }
+              },
+              "cloud-computing": {
+                "id": "cloud-computing",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Computing",
+                  "fr": "Informatique Cloud"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_COMPUTING?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_COMPUTING?locale=fr"
+                }
+              }
+            }
+          },
+          "customer-experience": {
+            "id": "customer-experience",
+            "level": 1,
+            "order": 6,
+            "status": "active",
+            "label": {
+              "en": "Customer experience",
+              "fr": "Expérience client"
+            },
+            "type": "submenu",
+            "items": {
+              "cx-platforms": {
+                "id": "cx-platforms",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "CX Platforms",
+                  "fr": "Plateformes CX"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CX_PLATFORMS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CX_PLATFORMS?locale=fr"
+                }
+              }
+            }
+          },
+          "data-intelligence": {
+            "id": "data-intelligence",
+            "level": 1,
+            "order": 7,
+            "status": "active",
+            "label": {
+              "en": "Data intelligence and IoT",
+              "fr": "Intelligence des données et IoT"
+            },
+            "type": "submenu",
+            "items": {
+              "iot-solutions": {
+                "id": "iot-solutions",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "IoT Solutions",
+                  "fr": "Solutions IoT"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_IOT?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_IOT?locale=fr"
+                }
+              },
+              "data-analytics": {
+                "id": "data-analytics",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Data Analytics",
+                  "fr": "Analyse de données"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_DATA_ANALYTICS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_DATA_ANALYTICS?locale=fr"
+                }
+              }
+            }
+          },
+          "mobility": {
+            "id": "mobility",
+            "level": 1,
+            "order": 8,
+            "status": "active",
+            "label": {
+              "en": "Mobility",
+              "fr": "Mobilité"
+            },
+            "type": "submenu",
+            "items": {
+              "mobile-plans": {
+                "id": "mobile-plans",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Mobile Plans",
+                  "fr": "Forfaits mobiles"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MOBILE_PLANS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MOBILE_PLANS?locale=fr"
+                }
+              },
+              "device-management": {
+                "id": "device-management",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Device Management",
+                  "fr": "Gestion des appareils"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_DEVICE_MGMT?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_DEVICE_MGMT?locale=fr"
+                }
+              }
+            }
+          },
+          "cyberdefense": {
+            "id": "cyberdefense",
+            "level": 1,
+            "order": 9,
+            "status": "active",
+            "label": {
+              "en": "Cyberdefense",
+              "fr": "Cyberdéfense"
+            },
+            "type": "submenu",
+            "items": {
+              "security-solutions": {
+                "id": "security-solutions",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Security Solutions",
+                  "fr": "Solutions de sécurité"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_SECURITY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_SECURITY?locale=fr"
+                }
+              },
+              "threat-protection": {
+                "id": "threat-protection",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Threat Protection",
+                  "fr": "Protection contre les menaces"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_THREAT_PROTECTION?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_THREAT_PROTECTION?locale=fr"
+                }
+              }
+            }
+          },
+          "consulting": {
+            "id": "consulting",
+            "level": 1,
+            "order": 10,
+            "status": "active",
+            "label": {
+              "en": "Consulting and digital transformation",
+              "fr": "Conseil et transformation digitale"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_CONSULTING?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_CONSULTING?locale=fr"
+            }
+          }
+        }
+      }
+    },
+    "ordering": {
+      "id": "ordering",
+      "icon": "ordering",
+      "order": 3,
+      "status": "active",
+      "label": {
+        "en": "Ordering",
+        "fr": "Commandes"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Ordering",
+          "fr": "Commandes"
+        },
+        "items": {
+          "create-new-request": {
+            "id": "create-new-request",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "Create a new request",
+              "fr": "Créer une nouvelle demande"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_CREATE_REQUEST?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_CREATE_REQUEST?locale=fr"
+            }
+          },
+          "all-request": {
+            "id": "all-request",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "All Request",
+              "fr": "Toutes les demandes"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_ALL_REQUESTS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_ALL_REQUESTS?locale=fr"
+            }
+          },
+          "ordering-dashboard": {
+            "id": "ordering-dashboard",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Ordering Dashboard",
+              "fr": "Tableau de bord des commandes"
+            },
+            "type": "submenu",
+            "items": {
+              "orders-overview": {
+                "id": "orders-overview",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Orders Overview",
+                  "fr": "Aperçu des commandes"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ORDERS_OVERVIEW?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORDERS_OVERVIEW?locale=fr"
+                }
+              },
+              "pending-orders": {
+                "id": "pending-orders",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Pending Orders",
+                  "fr": "Commandes en attente"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORDERS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORDERS?locale=fr"
+                }
+              }
+            }
+          },
+          "cloud-ordering": {
+            "id": "cloud-ordering",
+            "level": 1,
+            "order": 4,
+            "status": "active",
+            "label": {
+              "en": "Cloud",
+              "fr": "Cloud"
+            },
+            "type": "submenu",
+            "items": {
+              "order-cloud-services": {
+                "id": "order-cloud-services",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Order Cloud Services",
+                  "fr": "Commander des services Cloud"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ORDER_CLOUD?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORDER_CLOUD?locale=fr"
+                }
+              }
+            }
+          },
+          "evolution-platform-ordering": {
+            "id": "evolution-platform-ordering",
+            "level": 1,
+            "order": 5,
+            "status": "active",
+            "label": {
+              "en": "Evolution Platform",
+              "fr": "Evolution Platform"
+            },
+            "type": "submenu",
+            "items": {
+              "platform-services": {
+                "id": "platform-services",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Platform Services",
+                  "fr": "Services de plateforme"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PLATFORM_SERVICES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PLATFORM_SERVICES?locale=fr"
+                }
+              }
+            }
+          },
+          "business-talk-digital": {
+            "id": "business-talk-digital",
+            "level": 1,
+            "order": 6,
+            "status": "active",
+            "label": {
+              "en": "Business Talk Digital",
+              "fr": "Business Talk Digital"
+            },
+            "type": "submenu",
+            "items": {
+              "digital-services": {
+                "id": "digital-services",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Digital Services",
+                  "fr": "Services numériques"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_DIGITAL_SERVICES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_DIGITAL_SERVICES?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "billing": {
+      "id": "billing",
+      "icon": "billing",
+      "order": 4,
+      "status": "active",
+      "label": {
+        "en": "Billing",
+        "fr": "Facturation"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Billing",
+          "fr": "Facturation"
+        },
+        "items": {
+          "invoices": {
+            "id": "invoices",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "Invoices",
+              "fr": "Factures"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=4450%3A37756&node-id=4450-55122&viewport=2060%2C680%2C0.19&starting-point-node-id=4450%3A55122&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=4450%3A37756&node-id=4450-55122&viewport=2060%2C680%2C0.19&starting-point-node-id=4450%3A55122&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
+            }
+          },
+          "payment-history": {
+            "id": "payment-history",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "Payment History",
+              "fr": "Historique des paiements"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_HISTORY?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_HISTORY?locale=fr"
+            }
+          },
+          "billing-settings": {
+            "id": "billing-settings",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Billing Settings",
+              "fr": "Paramètres de facturation"
+            },
+            "type": "submenu",
+            "items": {
+              "payment-methods": {
+                "id": "payment-methods",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Payment Methods",
+                  "fr": "Méthodes de paiement"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_METHODS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_METHODS?locale=fr"
+                }
+              },
+              "billing-contacts": {
+                "id": "billing-contacts",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Billing Contacts",
+                  "fr": "Contacts de facturation"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BILLING_CONTACTS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BILLING_CONTACTS?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "incident": {
+      "id": "incident",
+      "icon": "incident",
+      "order": 5,
+      "status": "active",
+      "label": {
+        "en": "Incident",
+        "fr": "Incident"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Incident",
+          "fr": "Incident"
+        },
+        "items": {
+          "create-incident": {
+            "id": "create-incident",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "Create Incident",
+              "fr": "Créer un incident"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=3325%3A356204&node-id=3325-360344&viewport=414%2C745%2C0.07&starting-point-node-id=3325%3A360344&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share",
+              "fr": "https://embed.figma.com/proto/rnuPpD5Iu9az6Tig4PdsWS/Parcours-MMP-PI8?page-id=3325%3A356204&node-id=3325-360344&viewport=414%2C745%2C0.07&starting-point-node-id=3325%3A360344&show-proto-sidebar=false&viewport-controls=true&footer=false&hotspot-hints=true&disable-default-keyboard-nav=true&scaling=min-zoom&content-scaling=fixed&hide-ui=true&embed-host=share"
+            }
+          },
+          "my-incidents": {
+            "id": "my-incidents",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "My Incidents",
+              "fr": "Mes incidents"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_MY_INCIDENTS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_MY_INCIDENTS?locale=fr"
+            }
+          },
+          "incident-dashboard": {
+            "id": "incident-dashboard",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Incident Dashboard",
+              "fr": "Tableau de bord des incidents"
+            },
+            "type": "submenu",
+            "items": {
+              "open-incidents": {
+                "id": "open-incidents",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Open Incidents",
+                  "fr": "Incidents ouverts"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_OPEN_INCIDENTS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_OPEN_INCIDENTS?locale=fr"
+                }
+              },
+              "closed-incidents": {
+                "id": "closed-incidents",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Closed Incidents",
+                  "fr": "Incidents fermés"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOSED_INCIDENTS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOSED_INCIDENTS?locale=fr"
+                }
+              },
+              "incident-statistics": {
+                "id": "incident-statistics",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Statistics",
+                  "fr": "Statistiques"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_INCIDENT_STATS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_INCIDENT_STATS?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "maintenance": {
+      "id": "maintenance",
+      "icon": "maintenance",
+      "order": 6,
+      "status": "active",
+      "label": {
+        "en": "Maintenance",
+        "fr": "Maintenance"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Maintenance",
+          "fr": "Maintenance"
+        },
+        "items": {
+          "planned-maintenance": {
+            "id": "planned-maintenance",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "Planned Maintenance",
+              "fr": "Maintenance planifiée"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_PLANNED_MAINTENANCE?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_PLANNED_MAINTENANCE?locale=fr"
+            }
+          },
+          "maintenance-calendar": {
+            "id": "maintenance-calendar",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "Maintenance Calendar",
+              "fr": "Calendrier de maintenance"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_CALENDAR?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_CALENDAR?locale=fr"
+            }
+          },
+          "maintenance-notifications": {
+            "id": "maintenance-notifications",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Notifications",
+              "fr": "Notifications"
+            },
+            "type": "submenu",
+            "items": {
+              "upcoming-maintenance": {
+                "id": "upcoming-maintenance",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Upcoming Maintenance",
+                  "fr": "Maintenance à venir"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_UPCOMING_MAINTENANCE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_UPCOMING_MAINTENANCE?locale=fr"
+                }
+              },
+              "maintenance-alerts": {
+                "id": "maintenance-alerts",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Alerts",
+                  "fr": "Alertes"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_ALERTS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_ALERTS?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "changes": {
+      "id": "changes",
+      "icon": "changes",
+      "order": 7,
+      "status": "active",
+      "label": {
+        "en": "Changes",
+        "fr": "Changements"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Changes",
+          "fr": "Changements"
+        },
+        "items": {
+          "request-change": {
+            "id": "request-change",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "Request Change",
+              "fr": "Demander un changement"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_REQUEST_CHANGE?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_REQUEST_CHANGE?locale=fr"
+            }
+          },
+          "change-requests": {
+            "id": "change-requests",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "Change Requests",
+              "fr": "Demandes de changement"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS?locale=fr"
+            }
+          },
+          "change-management": {
+            "id": "change-management",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Change Management",
+              "fr": "Gestion des changements"
+            },
+            "type": "submenu",
+            "items": {
+              "pending-changes": {
+                "id": "pending-changes",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Pending Changes",
+                  "fr": "Changements en attente"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_CHANGES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_CHANGES?locale=fr"
+                }
+              },
+              "approved-changes": {
+                "id": "approved-changes",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Approved Changes",
+                  "fr": "Changements approuvés"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_APPROVED_CHANGES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_APPROVED_CHANGES?locale=fr"
+                }
+              },
+              "change-history": {
+                "id": "change-history",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Change History",
+                  "fr": "Historique des changements"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CHANGE_HISTORY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CHANGE_HISTORY?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "reporting": {
+      "id": "reporting",
+      "icon": "reporting",
+      "order": 8,
+      "status": "active",
+      "label": {
+        "en": "Reporting and analytics",
+        "fr": "Rapports et analyses"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Reporting and analytics",
+          "fr": "Rapports et analyses"
+        },
+        "items": {
+          "reports-dashboard": {
+            "id": "reports-dashboard",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "Reports Dashboard",
+              "fr": "Tableau de bord des rapports"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_REPORTS_DASHBOARD?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_REPORTS_DASHBOARD?locale=fr"
+            }
+          },
+          "custom-reports": {
+            "id": "custom-reports",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "Custom Reports",
+              "fr": "Rapports personnalisés"
+            },
+            "type": "submenu",
+            "items": {
+              "create-report": {
+                "id": "create-report",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Create Report",
+                  "fr": "Créer un rapport"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CREATE_REPORT?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CREATE_REPORT?locale=fr"
+                }
+              },
+              "saved-reports": {
+                "id": "saved-reports",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Saved Reports",
+                  "fr": "Rapports enregistrés"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_SAVED_REPORTS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_SAVED_REPORTS?locale=fr"
+                }
+              }
+            }
+          },
+          "analytics": {
+            "id": "analytics",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Analytics",
+              "fr": "Analyses"
+            },
+            "type": "submenu",
+            "items": {
+              "usage-analytics": {
+                "id": "usage-analytics",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Usage Analytics",
+                  "fr": "Analyses d'utilisation"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_USAGE_ANALYTICS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_USAGE_ANALYTICS?locale=fr"
+                }
+              },
+              "performance-metrics": {
+                "id": "performance-metrics",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Performance Metrics",
+                  "fr": "Métriques de performance"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PERFORMANCE_METRICS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PERFORMANCE_METRICS?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "administration": {
+      "id": "administration",
+      "icon": "administration",
+      "order": 9,
+      "status": "active",
+      "label": {
+        "en": "Role and rights administration",
+        "fr": "Administration des rôles et des droits"
+      },
+      "type": "panel",
+      "panel": {
+        "title": {
+          "en": "Role and rights administration",
+          "fr": "Administration des rôles et des droits"
+        },
+        "items": {
+          "user-management": {
+            "id": "user-management",
+            "level": 1,
+            "order": 1,
+            "status": "active",
+            "label": {
+              "en": "User Management",
+              "fr": "Gestion des utilisateurs"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://yann1nicolas-unicorn-lab.github.io/figmaSource/make/terms.json",
+              "fr": "https://yann1nicolas-unicorn-lab.github.io/figmaSource/make/terms.json"
+            }
+          },
+          "roles-permissions": {
+            "id": "roles-permissions",
+            "level": 1,
+            "order": 2,
+            "status": "active",
+            "label": {
+              "en": "Roles & Permissions",
+              "fr": "Rôles et permissions"
+            },
+            "type": "submenu",
+            "items": {
+              "manage-roles": {
+                "id": "manage-roles",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Manage Roles",
+                  "fr": "Gérer les rôles"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGE_ROLES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGE_ROLES?locale=fr"
+                }
+              },
+              "assign-permissions": {
+                "id": "assign-permissions",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Assign Permissions",
+                  "fr": "Attribuer des permissions"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ASSIGN_PERMISSIONS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ASSIGN_PERMISSIONS?locale=fr"
+                }
+              }
+            }
+          },
+          "access-control": {
+            "id": "access-control",
+            "level": 1,
+            "order": 3,
+            "status": "active",
+            "label": {
+              "en": "Access Control",
+              "fr": "Contrôle d'accès"
+            },
+            "type": "submenu",
+            "items": {
+              "access-policies": {
+                "id": "access-policies",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Access Policies",
+                  "fr": "Politiques d'accès"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ACCESS_POLICIES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ACCESS_POLICIES?locale=fr"
+                }
+              },
+              "audit-logs": {
+                "id": "audit-logs",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Audit Logs",
+                  "fr": "Journaux d'audit"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_AUDIT_LOGS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_AUDIT_LOGS?locale=fr"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "evolution": {
+      "id": "evolution",
+      "icon": "evolution",
+      "order": 10,
+      "status": "active",
+      "label": {
+        "en": "Evolution Platform",
+        "fr": "Plateforme Evolution"
+      },
+      "type": "link",
+      "target": "iframe",
+      "closePanels": true,
+      "hideSidebar": true,
+      "url": {
+        "en": "https://lzaqr8.axshare.com/?code=b0e41838feb1582a3d5f7a7c7f76d827&id=wzd8rd&p=home_page_-_main&c=1",
+        "fr": "https://lzaqr8.axshare.com/?code=b0e41838feb1582a3d5f7a7c7f76d827&id=wzd8rd&p=home_page_-_main&c=1"
+      }
+    }
+  }
+}
