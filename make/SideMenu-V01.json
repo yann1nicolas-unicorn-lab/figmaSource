@@ -2778,7 +2778,7 @@
             "id": "user-management",
             "level": 1,
             "order": 1,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "User Management",
               "fr": "Gestion des utilisateurs"
@@ -2787,8 +2787,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://yann1nicolas-unicorn-lab.github.io/figmaSource/make/terms.json",
-              "fr": "https://yann1nicolas-unicorn-lab.github.io/figmaSource/make/terms.json"
+              "en": "",
+              "fr": ""
             }
           },
           "roles-permissions": {
