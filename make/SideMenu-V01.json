@@ -45,8 +45,8 @@
       "order": 2,
       "status": "active",
       "label": {
-        "en": "InventoryZZZ",
-        "fr": "InventaireZZZ"
+        "en": "Inventory",
+        "fr": "Inventaire"
       },
       "type": "panel",
       "panel": {
