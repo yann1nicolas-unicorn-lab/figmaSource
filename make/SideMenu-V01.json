@@ -1,3 +1,4 @@
+```json
 {
   "metadata": {
     "version": "2.0.0",
@@ -59,7 +60,7 @@
             "id": "360-view",
             "level": 1,
             "order": 1,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "360 view",
               "fr": "Vue 360"
@@ -68,8 +69,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "collaboration": {
@@ -87,7 +88,7 @@
                 "id": "360-view-collab",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -96,15 +97,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_COLLAB_360?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_COLLAB_360?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-together-microsoft": {
                 "id": "business-together-microsoft",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Together Microsoft",
                   "fr": "Business Together Microsoft"
@@ -113,8 +114,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BTM?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BTM?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "working-together": {
@@ -138,7 +139,7 @@
                 "id": "audio-web-conferencing",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Audio and Web Conferencing",
                   "fr": "Audio et conférence Web"
@@ -147,15 +148,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_AUDIO_WEB?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_AUDIO_WEB?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "b2gaas": {
                 "id": "b2gaas",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "B2GAAS",
                   "fr": "B2GAAS"
@@ -164,15 +165,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_B2GAAS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_B2GAAS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-365": {
                 "id": "flexible-365",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible 365",
                   "fr": "Flexible 365"
@@ -181,15 +182,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_365?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_365?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "workplace-together-essentials": {
                 "id": "workplace-together-essentials",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Workplace Together Essentials",
                   "fr": "Workplace Together Essentials"
@@ -198,15 +199,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_WTE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_WTE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "workplace-together-webex": {
                 "id": "workplace-together-webex",
                 "level": 2,
                 "order": 8,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Workplace Together Webex",
                   "fr": "Workplace Together Webex"
@@ -215,8 +216,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_WTW?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_WTW?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -236,7 +237,7 @@
                 "id": "360-view-internet",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -245,15 +246,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_INTERNET?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_INTERNET?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-ethernet-serie-2": {
                 "id": "business-ethernet-serie-2",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Ethernet Série 2",
                   "fr": "Business Ethernet Série 2"
@@ -262,15 +263,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_ETHERNET?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_ETHERNET?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-vpn-france": {
                 "id": "business-vpn-france",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business VPN - France",
                   "fr": "Business VPN - France"
@@ -279,15 +280,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_FR?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_FR?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-vpn-international": {
                 "id": "business-vpn-international",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business VPN - International",
                   "fr": "Business VPN - International"
@@ -296,15 +297,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_INTL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_INTL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-computing-advanced-hds": {
                 "id": "flexible-computing-advanced-hds",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Computing Advanced HDS",
                   "fr": "Flexible Computing Advanced HDS"
@@ -313,15 +314,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-lan-france": {
                 "id": "flexible-lan-france",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible LAN - France",
                   "fr": "Flexible LAN - France"
@@ -330,15 +331,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_FR?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_FR?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-lan-international": {
                 "id": "flexible-lan-international",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible LAN - International",
                   "fr": "Flexible LAN - International"
@@ -347,8 +348,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_INTL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_INTL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-sd-wan": {
@@ -372,7 +373,7 @@
                 "id": "internet-platinum-international",
                 "level": 2,
                 "order": 9,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Internet Platinum - International",
                   "fr": "Internet Platinum - International"
@@ -381,15 +382,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINUM?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINUM?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "managed-lan-international": {
                 "id": "managed-lan-international",
                 "level": 2,
                 "order": 10,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Managed LAN - International",
                   "fr": "Managed LAN - International"
@@ -398,15 +399,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "bio": {
                 "id": "bio",
                 "level": 2,
                 "order": 11,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "BIO",
                   "fr": "BIO"
@@ -415,15 +416,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BIO?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BIO?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-vpn-end-user": {
                 "id": "business-vpn-end-user",
                 "level": 2,
                 "order": 12,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business VPN End User",
                   "fr": "Business VPN End User"
@@ -432,15 +433,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_END_USER?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_END_USER?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-vpn-galerie": {
                 "id": "business-vpn-galerie",
                 "level": 2,
                 "order": 13,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business VPN Galerie",
                   "fr": "Business VPN Galerie"
@@ -449,15 +450,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "international-ethernet-link": {
                 "id": "international-ethernet-link",
                 "level": 2,
                 "order": 14,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "International Ethernet Link (IEL)",
                   "fr": "International Ethernet Link (IEL)"
@@ -466,15 +467,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_IEL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_IEL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "nom-de-domaine": {
                 "id": "nom-de-domaine",
                 "level": 2,
                 "order": 15,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Nom de domaine",
                   "fr": "Nom de domaine"
@@ -483,15 +484,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "virtual-network-edge": {
                 "id": "virtual-network-edge",
                 "level": 2,
                 "order": 16,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Virtual Network Edge",
                   "fr": "Virtual Network Edge"
@@ -500,15 +501,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_VNE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_VNE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "wifi-guest-pack": {
                 "id": "wifi-guest-pack",
                 "level": 2,
                 "order": 17,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Wifi Guest Pack",
                   "fr": "Wifi Guest Pack"
@@ -517,15 +518,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PACK?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PACK?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "wifi-guest-portail": {
                 "id": "wifi-guest-portail",
                 "level": 2,
                 "order": 18,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Wifi Guest Portail",
                   "fr": "Wifi Guest Portail"
@@ -534,8 +535,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PORTAIL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PORTAIL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -555,7 +556,7 @@
                 "id": "360-view-telephony",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -564,15 +565,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_TELEPHONY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_TELEPHONY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-talk-ip-france": {
                 "id": "business-talk-ip-france",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Talk IP - France",
                   "fr": "Business Talk IP - France"
@@ -581,15 +582,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_IP_FR?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_IP_FR?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-talk-international": {
                 "id": "business-talk-international",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Talk - International",
                   "fr": "Business Talk - International"
@@ -598,15 +599,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_INTL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_INTL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-internet-voix": {
                 "id": "business-internet-voix",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Internet Voix",
                   "fr": "Business Internet Voix"
@@ -615,15 +616,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_INTERNET_VOIX?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_INTERNET_VOIX?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "btic": {
                 "id": "btic",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "BTIC",
                   "fr": "BTIC"
@@ -632,15 +633,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BTIC?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BTIC?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-together-telephony": {
                 "id": "business-together-telephony",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Together",
                   "fr": "Business Together"
@@ -649,15 +650,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TOGETHER_TEL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TOGETHER_TEL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-voix-basic": {
                 "id": "business-voix-basic",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Voix Basic",
                   "fr": "Business Voix Basic"
@@ -666,15 +667,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_BASIC?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_BASIC?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-voix-collaboration": {
                 "id": "business-voix-collaboration",
                 "level": 2,
                 "order": 8,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Voix et Collaboration",
                   "fr": "Business Voix et Collaboration"
@@ -683,15 +684,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_COLLAB?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_COLLAB?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "ligne-fixe-business": {
                 "id": "ligne-fixe-business",
                 "level": 2,
                 "order": 9,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Ligne Fixe Business",
                   "fr": "Ligne Fixe Business"
@@ -700,15 +701,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_LIGNE_FIXE_BUSINESS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIGNE_FIXE_BUSINESS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "numeris": {
                 "id": "numeris",
                 "level": 2,
                 "order": 10,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Numéris",
                   "fr": "Numéris"
@@ -717,15 +718,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_NUMERIS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_NUMERIS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "numeros-contact-ip": {
                 "id": "numeros-contact-ip",
                 "level": 2,
                 "order": 11,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Numeros Contact IP",
                   "fr": "Numeros Contact IP"
@@ -734,8 +735,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_NUMEROS_CONTACT_IP?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_NUMEROS_CONTACT_IP?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -755,7 +756,7 @@
                 "id": "360-view-cloud",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -764,15 +765,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CLOUD?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CLOUD?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-avenue": {
                 "id": "cloud-avenue",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Avenue",
                   "fr": "Cloud Avenue"
@@ -781,15 +782,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-connectivity": {
                 "id": "cloud-connectivity",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Connectivity",
                   "fr": "Cloud Connectivity"
@@ -798,15 +799,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_CONNECTIVITY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_CONNECTIVITY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "managed-applications": {
                 "id": "managed-applications",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Managed Applications",
                   "fr": "Managed Applications"
@@ -815,15 +816,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-xtended-kiosk-aws": {
                 "id": "cloud-xtended-kiosk-aws",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Xtended Kiosk - AWS",
                   "fr": "Cloud Xtended Kiosk - AWS"
@@ -832,15 +833,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AWS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AWS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-xtended-kiosk-azure": {
                 "id": "cloud-xtended-kiosk-azure",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Xtended Kiosk - Azure",
                   "fr": "Cloud Xtended Kiosk - Azure"
@@ -849,15 +850,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AZURE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AZURE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-xtended-kiosk-gcp": {
                 "id": "cloud-xtended-kiosk-gcp",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Xtended Kiosk – Google Cloud Platform",
                   "fr": "Cloud Xtended Kiosk – Google Cloud Platform"
@@ -866,15 +867,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_GCP?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_GCP?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-xtended-kiosk-iaas-azure": {
                 "id": "cloud-xtended-kiosk-iaas-azure",
                 "level": 2,
                 "order": 8,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Xtended Kiosk - IaaS Azure Virtual Desktop",
                   "fr": "Cloud Xtended Kiosk - IaaS Azure Virtual Desktop"
@@ -883,15 +884,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_IAAS_AZURE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_IAAS_AZURE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "cloud-infra-platform": {
                 "id": "cloud-infra-platform",
                 "level": 2,
                 "order": 9,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Cloud Infra Platform",
                   "fr": "Cloud Infra Platform"
@@ -900,15 +901,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_INFRA_PLATFORM?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_INFRA_PLATFORM?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-engine": {
                 "id": "flexible-engine",
                 "level": 2,
                 "order": 10,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Engine",
                   "fr": "Flexible Engine"
@@ -917,15 +918,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-housing": {
                 "id": "flexible-housing",
                 "level": 2,
                 "order": 11,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Housing",
                   "fr": "Flexible Housing"
@@ -934,15 +935,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_HOUSING?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_HOUSING?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "health-data-solutions": {
                 "id": "health-data-solutions",
                 "level": 2,
                 "order": 12,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Health Data Solutions",
                   "fr": "Health Data Solutions"
@@ -951,15 +952,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_HEALTH_DATA?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_HEALTH_DATA?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "multicloud-ready": {
                 "id": "multicloud-ready",
                 "level": 2,
                 "order": 13,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Multicloud Ready",
                   "fr": "Multicloud Ready"
@@ -968,15 +969,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MULTICLOUD_READY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MULTICLOUD_READY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "private-cloud-solution": {
                 "id": "private-cloud-solution",
                 "level": 2,
                 "order": 14,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Private Cloud Solution",
                   "fr": "Private Cloud Solution"
@@ -985,15 +986,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PRIVATE_CLOUD?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PRIVATE_CLOUD?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "teaming": {
                 "id": "teaming",
                 "level": 2,
                 "order": 15,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "TEAMING",
                   "fr": "TEAMING"
@@ -1002,8 +1003,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_TEAMING?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_TEAMING?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -1023,7 +1024,7 @@
                 "id": "360-view-customer-experience",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -1032,15 +1033,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CX?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CX?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "contact-everyone": {
                 "id": "contact-everyone",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Contact Everyone",
                   "fr": "Contact Everyone"
@@ -1049,15 +1050,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CONTACT_EVERYONE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CONTACT_EVERYONE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "contact-365": {
                 "id": "contact-365",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Contact 365",
                   "fr": "Contact 365"
@@ -1066,15 +1067,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CONTACT_365?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CONTACT_365?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "guide-vocal-ip": {
                 "id": "guide-vocal-ip",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Guide Vocal IP",
                   "fr": "Guide Vocal IP"
@@ -1083,15 +1084,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_GUIDE_VOCAL_IP?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_GUIDE_VOCAL_IP?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-contact-center": {
                 "id": "flexible-contact-center",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Contact Center",
                   "fr": "Flexible Contact Center"
@@ -1100,15 +1101,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_CONTACT_CENTER?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_CONTACT_CENTER?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "service-client-conseil-reseau": {
                 "id": "service-client-conseil-reseau",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Service Client Conseil Réseau",
                   "fr": "Service Client Conseil Réseau"
@@ -1117,15 +1118,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_SERVICE_CLIENT_CONSEIL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_SERVICE_CLIENT_CONSEIL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "unified-engagement-suite-genesys": {
                 "id": "unified-engagement-suite-genesys",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Unified Engagement Suite Genesys",
                   "fr": "Unified Engagement Suite Genesys"
@@ -1134,15 +1135,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_ENGAGEMENT?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_ENGAGEMENT?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "workforce-engagement-suite": {
                 "id": "workforce-engagement-suite",
                 "level": 2,
                 "order": 8,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Workforce Engagement Suite",
                   "fr": "Workforce Engagement Suite"
@@ -1151,8 +1152,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_WORKFORCE_ENGAGEMENT?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_WORKFORCE_ENGAGEMENT?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -1172,7 +1173,7 @@
                 "id": "360-view-data-intelligence",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -1181,15 +1182,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_DATA?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_DATA?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-computing-advanced": {
                 "id": "flexible-computing-advanced",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Computing Advanced",
                   "fr": "Flexible Computing Advanced"
@@ -1198,15 +1199,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING_ADV?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING_ADV?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "iot-connect-low-power": {
                 "id": "iot-connect-low-power",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "IoT Connect Low Power",
                   "fr": "IoT Connect Low Power"
@@ -1215,15 +1216,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_IOT_CONNECT_LOW_POWER?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_IOT_CONNECT_LOW_POWER?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "iot-services": {
                 "id": "iot-services",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "IoT Services",
                   "fr": "IoT Services"
@@ -1232,15 +1233,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_IOT_SERVICES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_IOT_SERVICES?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "live-button": {
                 "id": "live-button",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Live Button",
                   "fr": "Live Button"
@@ -1249,15 +1250,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_LIVE_BUTTON?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIVE_BUTTON?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "smart-operations": {
                 "id": "smart-operations",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Smart Operations",
                   "fr": "Smart Operations"
@@ -1266,8 +1267,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_SMART_OPERATIONS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_SMART_OPERATIONS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -1287,7 +1288,7 @@
                 "id": "360-view-mobility",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -1296,15 +1297,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_MOBILITY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_MOBILITY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "lignes-mobiles": {
                 "id": "lignes-mobiles",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Lignes mobiles",
                   "fr": "Lignes mobiles"
@@ -1313,15 +1314,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_LIGNES_MOBILES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIGNES_MOBILES?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "assistance-dediee-m2m": {
                 "id": "assistance-dediee-m2m",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Assistance dédiée M2M",
                   "fr": "Assistance dédiée M2M"
@@ -1330,15 +1331,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ASSISTANCE_M2M?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ASSISTANCE_M2M?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "live-objects": {
                 "id": "live-objects",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Live Objects",
                   "fr": "Live Objects"
@@ -1347,15 +1348,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_LIVE_OBJECTS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIVE_OBJECTS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "mobile-ssl": {
                 "id": "mobile-ssl",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Mobile SSL",
                   "fr": "Mobile SSL"
@@ -1364,15 +1365,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MOBILE_SSL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MOBILE_SSL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "orange-reprise": {
                 "id": "orange-reprise",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Orange Reprise",
                   "fr": "Orange Reprise"
@@ -1381,15 +1382,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ORANGE_REPRISE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORANGE_REPRISE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "teaming-mobile": {
                 "id": "teaming-mobile",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Teaming Mobile",
                   "fr": "Teaming Mobile"
@@ -1398,8 +1399,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_TEAMING_MOBILE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_TEAMING_MOBILE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -1419,7 +1420,7 @@
                 "id": "360-view-cyberdefense",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "360 view",
                   "fr": "Vue 360"
@@ -1428,15 +1429,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CYBERDEFENSE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CYBERDEFENSE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "easy-security": {
                 "id": "easy-security",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Easy Security",
                   "fr": "Easy Security"
@@ -1445,15 +1446,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_EASY_SECURITY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_EASY_SECURITY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "email-protection-suite": {
                 "id": "email-protection-suite",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Email Protection Suite",
                   "fr": "Email Protection Suite"
@@ -1462,15 +1463,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_EMAIL_PROTECTION?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_EMAIL_PROTECTION?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-security-platform-cloud-france": {
                 "id": "flexible-security-platform-cloud-france",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Security Platform Cloud France",
                   "fr": "Flexible Security Platform Cloud France"
@@ -1479,15 +1480,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_FR?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_FR?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "flexible-security-platform-cloud-international": {
                 "id": "flexible-security-platform-cloud-international",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Flexible Security Platform Cloud International",
                   "fr": "Flexible Security Platform Cloud International"
@@ -1496,15 +1497,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_INTL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_INTL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "managed-firewall": {
                 "id": "managed-firewall",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Managed Firewall",
                   "fr": "Managed Firewall"
@@ -1513,15 +1514,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_FIREWALL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_FIREWALL?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "unified-defense": {
                 "id": "unified-defense",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Unified Defense",
                   "fr": "Unified Defense"
@@ -1530,8 +1531,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_DEFENSE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_DEFENSE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -1540,7 +1541,7 @@
             "id": "consulting",
             "level": 1,
             "order": 10,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Consulting and digital transformation",
               "fr": "Conseil et transformation digitale"
@@ -1549,8 +1550,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_CONSULTING?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_CONSULTING?locale=fr"
+              "en": "",
+              "fr": ""
             }
           }
         }
@@ -1576,7 +1577,7 @@
             "id": "create-new-request",
             "level": 1,
             "order": 1,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Create a new request",
               "fr": "Créer une nouvelle demande"
@@ -1585,15 +1586,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_CREATE_REQUEST?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_CREATE_REQUEST?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "all-request": {
             "id": "all-request",
             "level": 1,
             "order": 2,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "All Request",
               "fr": "Toutes les demandes"
@@ -1602,8 +1603,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_ALL_REQUESTS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_ALL_REQUESTS?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "ordering-dashboard": {
@@ -1621,7 +1622,7 @@
                 "id": "pending-customer-action",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Pending Customer Action",
                   "fr": "Action client en attente"
@@ -1630,15 +1631,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_CUSTOMER_ACTION?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_CUSTOMER_ACTION?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "pending-orange-action": {
                 "id": "pending-orange-action",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Pending Orange Action",
                   "fr": "Action Orange en attente"
@@ -1647,15 +1648,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORANGE_ACTION?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORANGE_ACTION?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "orders-in-delivery": {
                 "id": "orders-in-delivery",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Orders in Delivery",
                   "fr": "Commandes en livraison"
@@ -1664,8 +1665,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ORDERS_IN_DELIVERY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORDERS_IN_DELIVERY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -1696,7 +1697,7 @@
                     "id": "business-vpn-gallery-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1705,15 +1706,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "business-vpn-gallery-track": {
                     "id": "business-vpn-gallery-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -1722,8 +1723,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -1743,7 +1744,7 @@
                     "id": "chic-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1752,15 +1753,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_CHIC_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_CHIC_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "chic-track": {
                     "id": "chic-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -1769,8 +1770,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_CHIC_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_CHIC_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -1790,7 +1791,7 @@
                     "id": "cloud-avenue-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1799,15 +1800,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "cloud-avenue-track": {
                     "id": "cloud-avenue-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -1816,8 +1817,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -1837,7 +1838,7 @@
                     "id": "flexible-engine-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1846,15 +1847,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "flexible-engine-track": {
                     "id": "flexible-engine-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -1863,8 +1864,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -1884,7 +1885,7 @@
                     "id": "flexible-engine-sap-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1893,15 +1894,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "flexible-engine-sap-track": {
                     "id": "flexible-engine-sap-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -1910,8 +1911,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -1931,7 +1932,7 @@
                     "id": "flexible-engine-hds-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1940,15 +1941,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "flexible-engine-hds-track": {
                     "id": "flexible-engine-hds-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -1957,8 +1958,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -1978,7 +1979,7 @@
                     "id": "flexible-engine-managed-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -1987,15 +1988,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "flexible-engine-managed-track": {
                     "id": "flexible-engine-managed-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -2004,8 +2005,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -2025,7 +2026,7 @@
                     "id": "managed-applications-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -2034,15 +2035,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "managed-applications-track": {
                     "id": "managed-applications-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -2051,8 +2052,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -2072,7 +2073,7 @@
                     "id": "domain-name-order",
                     "level": 3,
                     "order": 1,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Commander",
                       "fr": "Commander"
@@ -2081,15 +2082,15 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_ORDER?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_ORDER?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   },
                   "domain-name-track": {
                     "id": "domain-name-track",
                     "level": 3,
                     "order": 2,
-                    "status": "active",
+                    "status": "disabled",
                     "label": {
                       "en": "Suivre mes commandes",
                       "fr": "Suivre mes commandes"
@@ -2098,8 +2099,8 @@
                     "target": "iframe",
                     "closePanels": true,
                     "url": {
-                      "en": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_TRACK?locale=en",
-                      "fr": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_TRACK?locale=fr"
+                      "en": "",
+                      "fr": ""
                     }
                   }
                 }
@@ -2121,7 +2122,7 @@
                 "id": "platform-services",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Platform Services",
                   "fr": "Services de plateforme"
@@ -2130,8 +2131,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PLATFORM_SERVICES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PLATFORM_SERVICES?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2151,7 +2152,7 @@
                 "id": "digital-services",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Digital Services",
                   "fr": "Services numériques"
@@ -2160,8 +2161,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_DIGITAL_SERVICES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_DIGITAL_SERVICES?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2206,7 +2207,7 @@
             "id": "payment-history",
             "level": 1,
             "order": 2,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Payment History",
               "fr": "Historique des paiements"
@@ -2215,8 +2216,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_HISTORY?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_HISTORY?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "billing-settings": {
@@ -2234,7 +2235,7 @@
                 "id": "payment-methods",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Payment Methods",
                   "fr": "Méthodes de paiement"
@@ -2243,15 +2244,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_METHODS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PAYMENT_METHODS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "billing-contacts": {
                 "id": "billing-contacts",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Billing Contacts",
                   "fr": "Contacts de facturation"
@@ -2260,8 +2261,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BILLING_CONTACTS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BILLING_CONTACTS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2306,7 +2307,7 @@
             "id": "my-incidents",
             "level": 1,
             "order": 2,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "My Incidents",
               "fr": "Mes incidents"
@@ -2315,8 +2316,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_MY_INCIDENTS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_MY_INCIDENTS?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "incident-dashboard": {
@@ -2334,7 +2335,7 @@
                 "id": "open-incidents",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Open Incidents",
                   "fr": "Incidents ouverts"
@@ -2343,15 +2344,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_OPEN_INCIDENTS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_OPEN_INCIDENTS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "closed-incidents": {
                 "id": "closed-incidents",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Closed Incidents",
                   "fr": "Incidents fermés"
@@ -2360,15 +2361,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOSED_INCIDENTS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOSED_INCIDENTS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "incident-statistics": {
                 "id": "incident-statistics",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Statistics",
                   "fr": "Statistiques"
@@ -2377,8 +2378,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_INCIDENT_STATS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_INCIDENT_STATS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2406,7 +2407,7 @@
             "id": "orange-carrier-maintenance",
             "level": 1,
             "order": 1,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Orange - Carrier Maintenance",
               "fr": "Orange - Carrier Maintenance"
@@ -2415,15 +2416,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_ORANGE_CARRIER_MAINTENANCE?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_ORANGE_CARRIER_MAINTENANCE?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "maintenance-subscription": {
             "id": "maintenance-subscription",
             "level": 1,
             "order": 2,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Maintenance Subscription",
               "fr": "Maintenance Subscription"
@@ -2432,8 +2433,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_SUBSCRIPTION?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_SUBSCRIPTION?locale=fr"
+              "en": "",
+              "fr": ""
             }
           }
         }
@@ -2459,7 +2460,7 @@
             "id": "list-of-change-requests",
             "level": 1,
             "order": 1,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "List of change requests",
               "fr": "Liste des demandes de changement"
@@ -2468,15 +2469,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_LIST_CHANGE_REQUESTS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_LIST_CHANGE_REQUESTS?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "change-requests-history": {
             "id": "change-requests-history",
             "level": 1,
             "order": 2,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Change requests history",
               "fr": "Historique des demandes de changement"
@@ -2485,8 +2486,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS_HISTORY?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS_HISTORY?locale=fr"
+              "en": "",
+              "fr": ""
             }
           }
         }
@@ -2512,7 +2513,7 @@
             "id": "network-monitoring",
             "level": 1,
             "order": 1,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Network Monitoring",
               "fr": "Network Monitoring"
@@ -2521,15 +2522,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_NETWORK_MONITORING?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_NETWORK_MONITORING?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "usage-et-performance": {
             "id": "usage-et-performance",
             "level": 1,
             "order": 2,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Usage et performance",
               "fr": "Usage et performance"
@@ -2538,15 +2539,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_USAGE_PERFORMANCE?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_USAGE_PERFORMANCE?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "monthly-reports": {
             "id": "monthly-reports",
             "level": 1,
             "order": 3,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Monthly reports",
               "fr": "Monthly reports"
@@ -2555,15 +2556,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_MONTHLY_REPORTS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_MONTHLY_REPORTS?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "global-reports": {
             "id": "global-reports",
             "level": 1,
             "order": 4,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Global reports",
               "fr": "Global reports"
@@ -2572,15 +2573,15 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_GLOBAL_REPORTS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_GLOBAL_REPORTS?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "reporting-and-analytics": {
             "id": "reporting-and-analytics",
             "level": 1,
             "order": 5,
-            "status": "active",
+            "status": "disabled",
             "label": {
               "en": "Reporting and analytics",
               "fr": "Reporting and analytics"
@@ -2589,8 +2590,8 @@
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_REPORTING_ANALYTICS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_REPORTING_ANALYTICS?locale=fr"
+              "en": "",
+              "fr": ""
             }
           },
           "internet-and-networks-reporting": {
@@ -2608,7 +2609,7 @@
                 "id": "business-vpn-ip-bandwidth",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business VPN - IP bandwidth utilization",
                   "fr": "Business VPN - IP bandwidth utilization"
@@ -2617,15 +2618,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_BANDWIDTH?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_BANDWIDTH?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "business-vpn-galerie": {
                 "id": "business-vpn-galerie",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business VPN Galerie",
                   "fr": "Business VPN Galerie"
@@ -2634,15 +2635,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "internet-platinium-bandwidth": {
                 "id": "internet-platinium-bandwidth",
                 "level": 2,
                 "order": 3,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Internet Platinium - IP bandwidth utilization",
                   "fr": "Internet Platinium - IP bandwidth utilization"
@@ -2651,15 +2652,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINIUM_BANDWIDTH?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINIUM_BANDWIDTH?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "managed-lan-device-performance": {
                 "id": "managed-lan-device-performance",
                 "level": 2,
                 "order": 4,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Managed LAN - Device performance",
                   "fr": "Managed LAN - Device performance"
@@ -2668,15 +2669,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN_DEVICE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN_DEVICE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "path-performance": {
                 "id": "path-performance",
                 "level": 2,
                 "order": 5,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Path performance",
                   "fr": "Path performance"
@@ -2685,15 +2686,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PATH_PERFORMANCE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PATH_PERFORMANCE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "real-time-monitoring": {
                 "id": "real-time-monitoring",
                 "level": 2,
                 "order": 6,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Real-time monitoring",
                   "fr": "Real-time monitoring"
@@ -2702,15 +2703,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_REAL_TIME_MONITORING?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_REAL_TIME_MONITORING?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "site-path-availability": {
                 "id": "site-path-availability",
                 "level": 2,
                 "order": 7,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Site path availability",
                   "fr": "Site path availability"
@@ -2719,8 +2720,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_SITE_PATH_AVAILABILITY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_SITE_PATH_AVAILABILITY?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2740,7 +2741,7 @@
                 "id": "business-talk-usage-performance",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Business Talk - Usage and performance",
                   "fr": "Business Talk - Usage and performance"
@@ -2749,8 +2750,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_USAGE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_USAGE?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2806,7 +2807,7 @@
                 "id": "manage-roles",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Manage Roles",
                   "fr": "Gérer les rôles"
@@ -2815,15 +2816,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGE_ROLES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGE_ROLES?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "assign-permissions": {
                 "id": "assign-permissions",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Assign Permissions",
                   "fr": "Attribuer des permissions"
@@ -2832,8 +2833,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ASSIGN_PERMISSIONS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ASSIGN_PERMISSIONS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2853,7 +2854,7 @@
                 "id": "access-policies",
                 "level": 2,
                 "order": 1,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Access Policies",
                   "fr": "Politiques d'accès"
@@ -2862,15 +2863,15 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ACCESS_POLICIES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ACCESS_POLICIES?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               },
               "audit-logs": {
                 "id": "audit-logs",
                 "level": 2,
                 "order": 2,
-                "status": "active",
+                "status": "disabled",
                 "label": {
                   "en": "Audit Logs",
                   "fr": "Journaux d'audit"
@@ -2879,8 +2880,8 @@
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_AUDIT_LOGS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_AUDIT_LOGS?locale=fr"
+                  "en": "",
+                  "fr": ""
                 }
               }
             }
@@ -2908,3 +2909,4 @@
     }
   }
 }
+```
