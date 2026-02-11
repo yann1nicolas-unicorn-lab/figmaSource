@@ -23,13 +23,13 @@
   },
   "menus": {
     "home": {
-      "id": "homeZ",
-      "icon": "homeZ",
+      "id": "home",
+      "icon": "home",
       "order": 1,
       "status": "active",
       "label": {
-        "en": "Home",
-        "fr": "Accueil"
+        "en": "Homez",
+        "fr": "Accueilz"
       },
       "type": "link",
       "target": "iframe",
