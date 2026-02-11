@@ -218,23 +218,6 @@
                   "en": "https://embed.figma.com/proto/EXAMPLE_WTW?locale=en",
                   "fr": "https://embed.figma.com/proto/EXAMPLE_WTW?locale=fr"
                 }
-              },
-              "label": {
-                "id": "label",
-                "level": 2,
-                "order": 9,
-                "status": "active",
-                "label": {
-                  "en": "Label",
-                  "fr": "Label"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_LABEL?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_LABEL?locale=fr"
-                }
               }
             }
           },
@@ -249,38 +232,310 @@
             },
             "type": "submenu",
             "items": {
-              "internet-access": {
-                "id": "internet-access",
+              "360-view-internet": {
+                "id": "360-view-internet",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Internet Access",
-                  "fr": "Accès Internet"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_INTERNET_ACCESS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_INTERNET_ACCESS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_INTERNET?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_INTERNET?locale=fr"
                 }
               },
-              "vpn-services": {
-                "id": "vpn-services",
+              "business-ethernet-serie-2": {
+                "id": "business-ethernet-serie-2",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "VPN Services",
-                  "fr": "Services VPN"
+                  "en": "Business Ethernet Série 2",
+                  "fr": "Business Ethernet Série 2"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_VPN?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_VPN?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_ETHERNET?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_ETHERNET?locale=fr"
+                }
+              },
+              "business-vpn-france": {
+                "id": "business-vpn-france",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Business VPN - France",
+                  "fr": "Business VPN - France"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_FR?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_FR?locale=fr"
+                }
+              },
+              "business-vpn-international": {
+                "id": "business-vpn-international",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Business VPN - International",
+                  "fr": "Business VPN - International"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_INTL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_INTL?locale=fr"
+                }
+              },
+              "flexible-computing-advanced-hds": {
+                "id": "flexible-computing-advanced-hds",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Computing Advanced HDS",
+                  "fr": "Flexible Computing Advanced HDS"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING?locale=fr"
+                }
+              },
+              "flexible-lan-france": {
+                "id": "flexible-lan-france",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Flexible LAN - France",
+                  "fr": "Flexible LAN - France"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_FR?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_FR?locale=fr"
+                }
+              },
+              "flexible-lan-international": {
+                "id": "flexible-lan-international",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Flexible LAN - International",
+                  "fr": "Flexible LAN - International"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_INTL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_LAN_INTL?locale=fr"
+                }
+              },
+              "flexible-sd-wan": {
+                "id": "flexible-sd-wan",
+                "level": 2,
+                "order": 8,
+                "status": "active",
+                "label": {
+                  "en": "Flexible SD-WAN",
+                  "fr": "Flexible SD-WAN"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SD_WAN?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SD_WAN?locale=fr"
+                }
+              },
+              "internet-platinum-international": {
+                "id": "internet-platinum-international",
+                "level": 2,
+                "order": 9,
+                "status": "active",
+                "label": {
+                  "en": "Internet Platinum - International",
+                  "fr": "Internet Platinum - International"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINUM?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINUM?locale=fr"
+                }
+              },
+              "managed-lan-international": {
+                "id": "managed-lan-international",
+                "level": 2,
+                "order": 10,
+                "status": "active",
+                "label": {
+                  "en": "Managed LAN - International",
+                  "fr": "Managed LAN - International"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN?locale=fr"
+                }
+              },
+              "bio": {
+                "id": "bio",
+                "level": 2,
+                "order": 11,
+                "status": "active",
+                "label": {
+                  "en": "BIO",
+                  "fr": "BIO"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BIO?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BIO?locale=fr"
+                }
+              },
+              "business-vpn-end-user": {
+                "id": "business-vpn-end-user",
+                "level": 2,
+                "order": 12,
+                "status": "active",
+                "label": {
+                  "en": "Business VPN End User",
+                  "fr": "Business VPN End User"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_END_USER?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_END_USER?locale=fr"
+                }
+              },
+              "business-vpn-galerie": {
+                "id": "business-vpn-galerie",
+                "level": 2,
+                "order": 13,
+                "status": "active",
+                "label": {
+                  "en": "Business VPN Galerie",
+                  "fr": "Business VPN Galerie"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=fr"
+                }
+              },
+              "international-ethernet-link": {
+                "id": "international-ethernet-link",
+                "level": 2,
+                "order": 14,
+                "status": "active",
+                "label": {
+                  "en": "International Ethernet Link (IEL)",
+                  "fr": "International Ethernet Link (IEL)"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_IEL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_IEL?locale=fr"
+                }
+              },
+              "nom-de-domaine": {
+                "id": "nom-de-domaine",
+                "level": 2,
+                "order": 15,
+                "status": "active",
+                "label": {
+                  "en": "Nom de domaine",
+                  "fr": "Nom de domaine"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME?locale=fr"
+                }
+              },
+              "virtual-network-edge": {
+                "id": "virtual-network-edge",
+                "level": 2,
+                "order": 16,
+                "status": "active",
+                "label": {
+                  "en": "Virtual Network Edge",
+                  "fr": "Virtual Network Edge"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_VNE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_VNE?locale=fr"
+                }
+              },
+              "wifi-guest-pack": {
+                "id": "wifi-guest-pack",
+                "level": 2,
+                "order": 17,
+                "status": "active",
+                "label": {
+                  "en": "Wifi Guest Pack",
+                  "fr": "Wifi Guest Pack"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PACK?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PACK?locale=fr"
+                }
+              },
+              "wifi-guest-portail": {
+                "id": "wifi-guest-portail",
+                "level": 2,
+                "order": 18,
+                "status": "active",
+                "label": {
+                  "en": "Wifi Guest Portail",
+                  "fr": "Wifi Guest Portail"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PORTAIL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_WIFI_GUEST_PORTAIL?locale=fr"
                 }
               }
             }
@@ -296,38 +551,191 @@
             },
             "type": "submenu",
             "items": {
-              "voip-solutions": {
-                "id": "voip-solutions",
+              "360-view-telephony": {
+                "id": "360-view-telephony",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "VoIP Solutions",
-                  "fr": "Solutions VoIP"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_VOIP?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_VOIP?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_TELEPHONY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_TELEPHONY?locale=fr"
                 }
               },
-              "fixed-line": {
-                "id": "fixed-line",
+              "business-talk-ip-france": {
+                "id": "business-talk-ip-france",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Fixed Line",
-                  "fr": "Ligne fixe"
+                  "en": "Business Talk IP - France",
+                  "fr": "Business Talk IP - France"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_FIXED_LINE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_FIXED_LINE?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_IP_FR?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_IP_FR?locale=fr"
+                }
+              },
+              "business-talk-international": {
+                "id": "business-talk-international",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Business Talk - International",
+                  "fr": "Business Talk - International"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_INTL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_INTL?locale=fr"
+                }
+              },
+              "business-internet-voix": {
+                "id": "business-internet-voix",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Business Internet Voix",
+                  "fr": "Business Internet Voix"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_INTERNET_VOIX?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_INTERNET_VOIX?locale=fr"
+                }
+              },
+              "btic": {
+                "id": "btic",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "BTIC",
+                  "fr": "BTIC"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BTIC?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BTIC?locale=fr"
+                }
+              },
+              "business-together-telephony": {
+                "id": "business-together-telephony",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Business Together",
+                  "fr": "Business Together"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TOGETHER_TEL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TOGETHER_TEL?locale=fr"
+                }
+              },
+              "business-voix-basic": {
+                "id": "business-voix-basic",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Business Voix Basic",
+                  "fr": "Business Voix Basic"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_BASIC?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_BASIC?locale=fr"
+                }
+              },
+              "business-voix-collaboration": {
+                "id": "business-voix-collaboration",
+                "level": 2,
+                "order": 8,
+                "status": "active",
+                "label": {
+                  "en": "Business Voix et Collaboration",
+                  "fr": "Business Voix et Collaboration"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_COLLAB?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VOIX_COLLAB?locale=fr"
+                }
+              },
+              "ligne-fixe-business": {
+                "id": "ligne-fixe-business",
+                "level": 2,
+                "order": 9,
+                "status": "active",
+                "label": {
+                  "en": "Ligne Fixe Business",
+                  "fr": "Ligne Fixe Business"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_LIGNE_FIXE_BUSINESS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIGNE_FIXE_BUSINESS?locale=fr"
+                }
+              },
+              "numeris": {
+                "id": "numeris",
+                "level": 2,
+                "order": 10,
+                "status": "active",
+                "label": {
+                  "en": "Numéris",
+                  "fr": "Numéris"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_NUMERIS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_NUMERIS?locale=fr"
+                }
+              },
+              "numeros-contact-ip": {
+                "id": "numeros-contact-ip",
+                "level": 2,
+                "order": 11,
+                "status": "active",
+                "label": {
+                  "en": "Numeros Contact IP",
+                  "fr": "Numeros Contact IP"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_NUMEROS_CONTACT_IP?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_NUMEROS_CONTACT_IP?locale=fr"
                 }
               }
             }
@@ -343,38 +751,259 @@
             },
             "type": "submenu",
             "items": {
-              "cloud-storage": {
-                "id": "cloud-storage",
+              "360-view-cloud": {
+                "id": "360-view-cloud",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Cloud Storage",
-                  "fr": "Stockage Cloud"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_STORAGE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_STORAGE?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CLOUD?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CLOUD?locale=fr"
                 }
               },
-              "cloud-computing": {
-                "id": "cloud-computing",
+              "cloud-avenue": {
+                "id": "cloud-avenue",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Cloud Computing",
-                  "fr": "Informatique Cloud"
+                  "en": "Cloud Avenue",
+                  "fr": "Cloud Avenue"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_COMPUTING?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_COMPUTING?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE?locale=fr"
+                }
+              },
+              "cloud-connectivity": {
+                "id": "cloud-connectivity",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Connectivity",
+                  "fr": "Cloud Connectivity"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_CONNECTIVITY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_CONNECTIVITY?locale=fr"
+                }
+              },
+              "managed-applications": {
+                "id": "managed-applications",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Managed Applications",
+                  "fr": "Managed Applications"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS?locale=fr"
+                }
+              },
+              "cloud-xtended-kiosk-aws": {
+                "id": "cloud-xtended-kiosk-aws",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Xtended Kiosk - AWS",
+                  "fr": "Cloud Xtended Kiosk - AWS"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AWS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AWS?locale=fr"
+                }
+              },
+              "cloud-xtended-kiosk-azure": {
+                "id": "cloud-xtended-kiosk-azure",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Xtended Kiosk - Azure",
+                  "fr": "Cloud Xtended Kiosk - Azure"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AZURE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_AZURE?locale=fr"
+                }
+              },
+              "cloud-xtended-kiosk-gcp": {
+                "id": "cloud-xtended-kiosk-gcp",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Xtended Kiosk – Google Cloud Platform",
+                  "fr": "Cloud Xtended Kiosk – Google Cloud Platform"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_GCP?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_GCP?locale=fr"
+                }
+              },
+              "cloud-xtended-kiosk-iaas-azure": {
+                "id": "cloud-xtended-kiosk-iaas-azure",
+                "level": 2,
+                "order": 8,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Xtended Kiosk - IaaS Azure Virtual Desktop",
+                  "fr": "Cloud Xtended Kiosk - IaaS Azure Virtual Desktop"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_IAAS_AZURE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_XTENDED_IAAS_AZURE?locale=fr"
+                }
+              },
+              "cloud-infra-platform": {
+                "id": "cloud-infra-platform",
+                "level": 2,
+                "order": 9,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Infra Platform",
+                  "fr": "Cloud Infra Platform"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_INFRA_PLATFORM?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_INFRA_PLATFORM?locale=fr"
+                }
+              },
+              "flexible-engine": {
+                "id": "flexible-engine",
+                "level": 2,
+                "order": 10,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Engine",
+                  "fr": "Flexible Engine"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE?locale=fr"
+                }
+              },
+              "flexible-housing": {
+                "id": "flexible-housing",
+                "level": 2,
+                "order": 11,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Housing",
+                  "fr": "Flexible Housing"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_HOUSING?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_HOUSING?locale=fr"
+                }
+              },
+              "health-data-solutions": {
+                "id": "health-data-solutions",
+                "level": 2,
+                "order": 12,
+                "status": "active",
+                "label": {
+                  "en": "Health Data Solutions",
+                  "fr": "Health Data Solutions"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_HEALTH_DATA?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_HEALTH_DATA?locale=fr"
+                }
+              },
+              "multicloud-ready": {
+                "id": "multicloud-ready",
+                "level": 2,
+                "order": 13,
+                "status": "active",
+                "label": {
+                  "en": "Multicloud Ready",
+                  "fr": "Multicloud Ready"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MULTICLOUD_READY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MULTICLOUD_READY?locale=fr"
+                }
+              },
+              "private-cloud-solution": {
+                "id": "private-cloud-solution",
+                "level": 2,
+                "order": 14,
+                "status": "active",
+                "label": {
+                  "en": "Private Cloud Solution",
+                  "fr": "Private Cloud Solution"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PRIVATE_CLOUD?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PRIVATE_CLOUD?locale=fr"
+                }
+              },
+              "teaming": {
+                "id": "teaming",
+                "level": 2,
+                "order": 15,
+                "status": "active",
+                "label": {
+                  "en": "TEAMING",
+                  "fr": "TEAMING"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_TEAMING?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_TEAMING?locale=fr"
                 }
               }
             }
@@ -390,21 +1019,140 @@
             },
             "type": "submenu",
             "items": {
-              "cx-platforms": {
-                "id": "cx-platforms",
+              "360-view-customer-experience": {
+                "id": "360-view-customer-experience",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "CX Platforms",
-                  "fr": "Plateformes CX"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CX_PLATFORMS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CX_PLATFORMS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CX?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CX?locale=fr"
+                }
+              },
+              "contact-everyone": {
+                "id": "contact-everyone",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "Contact Everyone",
+                  "fr": "Contact Everyone"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CONTACT_EVERYONE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CONTACT_EVERYONE?locale=fr"
+                }
+              },
+              "contact-365": {
+                "id": "contact-365",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Contact 365",
+                  "fr": "Contact 365"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_CONTACT_365?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_CONTACT_365?locale=fr"
+                }
+              },
+              "guide-vocal-ip": {
+                "id": "guide-vocal-ip",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Guide Vocal IP",
+                  "fr": "Guide Vocal IP"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_GUIDE_VOCAL_IP?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_GUIDE_VOCAL_IP?locale=fr"
+                }
+              },
+              "flexible-contact-center": {
+                "id": "flexible-contact-center",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Contact Center",
+                  "fr": "Flexible Contact Center"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_CONTACT_CENTER?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_CONTACT_CENTER?locale=fr"
+                }
+              },
+              "service-client-conseil-reseau": {
+                "id": "service-client-conseil-reseau",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Service Client Conseil Réseau",
+                  "fr": "Service Client Conseil Réseau"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_SERVICE_CLIENT_CONSEIL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_SERVICE_CLIENT_CONSEIL?locale=fr"
+                }
+              },
+              "unified-engagement-suite-genesys": {
+                "id": "unified-engagement-suite-genesys",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Unified Engagement Suite Genesys",
+                  "fr": "Unified Engagement Suite Genesys"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_ENGAGEMENT?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_ENGAGEMENT?locale=fr"
+                }
+              },
+              "workforce-engagement-suite": {
+                "id": "workforce-engagement-suite",
+                "level": 2,
+                "order": 8,
+                "status": "active",
+                "label": {
+                  "en": "Workforce Engagement Suite",
+                  "fr": "Workforce Engagement Suite"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_WORKFORCE_ENGAGEMENT?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_WORKFORCE_ENGAGEMENT?locale=fr"
                 }
               }
             }
@@ -420,38 +1168,106 @@
             },
             "type": "submenu",
             "items": {
-              "iot-solutions": {
-                "id": "iot-solutions",
+              "360-view-data-intelligence": {
+                "id": "360-view-data-intelligence",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "IoT Solutions",
-                  "fr": "Solutions IoT"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_IOT?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_IOT?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_DATA?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_DATA?locale=fr"
                 }
               },
-              "data-analytics": {
-                "id": "data-analytics",
+              "flexible-computing-advanced": {
+                "id": "flexible-computing-advanced",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Data Analytics",
-                  "fr": "Analyse de données"
+                  "en": "Flexible Computing Advanced",
+                  "fr": "Flexible Computing Advanced"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_DATA_ANALYTICS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_DATA_ANALYTICS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING_ADV?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_COMPUTING_ADV?locale=fr"
+                }
+              },
+              "iot-connect-low-power": {
+                "id": "iot-connect-low-power",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "IoT Connect Low Power",
+                  "fr": "IoT Connect Low Power"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_IOT_CONNECT_LOW_POWER?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_IOT_CONNECT_LOW_POWER?locale=fr"
+                }
+              },
+              "iot-services": {
+                "id": "iot-services",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "IoT Services",
+                  "fr": "IoT Services"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_IOT_SERVICES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_IOT_SERVICES?locale=fr"
+                }
+              },
+              "live-button": {
+                "id": "live-button",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Live Button",
+                  "fr": "Live Button"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_LIVE_BUTTON?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIVE_BUTTON?locale=fr"
+                }
+              },
+              "smart-operations": {
+                "id": "smart-operations",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Smart Operations",
+                  "fr": "Smart Operations"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_SMART_OPERATIONS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_SMART_OPERATIONS?locale=fr"
                 }
               }
             }
@@ -467,38 +1283,123 @@
             },
             "type": "submenu",
             "items": {
-              "mobile-plans": {
-                "id": "mobile-plans",
+              "360-view-mobility": {
+                "id": "360-view-mobility",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Mobile Plans",
-                  "fr": "Forfaits mobiles"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MOBILE_PLANS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MOBILE_PLANS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_MOBILITY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_MOBILITY?locale=fr"
                 }
               },
-              "device-management": {
-                "id": "device-management",
+              "lignes-mobiles": {
+                "id": "lignes-mobiles",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Device Management",
-                  "fr": "Gestion des appareils"
+                  "en": "Lignes mobiles",
+                  "fr": "Lignes mobiles"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_DEVICE_MGMT?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_DEVICE_MGMT?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_LIGNES_MOBILES?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIGNES_MOBILES?locale=fr"
+                }
+              },
+              "assistance-dediee-m2m": {
+                "id": "assistance-dediee-m2m",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Assistance dédiée M2M",
+                  "fr": "Assistance dédiée M2M"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ASSISTANCE_M2M?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ASSISTANCE_M2M?locale=fr"
+                }
+              },
+              "live-objects": {
+                "id": "live-objects",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Live Objects",
+                  "fr": "Live Objects"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_LIVE_OBJECTS?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_LIVE_OBJECTS?locale=fr"
+                }
+              },
+              "mobile-ssl": {
+                "id": "mobile-ssl",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Mobile SSL",
+                  "fr": "Mobile SSL"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MOBILE_SSL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MOBILE_SSL?locale=fr"
+                }
+              },
+              "orange-reprise": {
+                "id": "orange-reprise",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Orange Reprise",
+                  "fr": "Orange Reprise"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ORANGE_REPRISE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORANGE_REPRISE?locale=fr"
+                }
+              },
+              "teaming-mobile": {
+                "id": "teaming-mobile",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Teaming Mobile",
+                  "fr": "Teaming Mobile"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_TEAMING_MOBILE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_TEAMING_MOBILE?locale=fr"
                 }
               }
             }
@@ -514,38 +1415,123 @@
             },
             "type": "submenu",
             "items": {
-              "security-solutions": {
-                "id": "security-solutions",
+              "360-view-cyberdefense": {
+                "id": "360-view-cyberdefense",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Security Solutions",
-                  "fr": "Solutions de sécurité"
+                  "en": "360 view",
+                  "fr": "Vue 360"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_SECURITY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_SECURITY?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CYBERDEFENSE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_360_VIEW_CYBERDEFENSE?locale=fr"
                 }
               },
-              "threat-protection": {
-                "id": "threat-protection",
+              "easy-security": {
+                "id": "easy-security",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Threat Protection",
-                  "fr": "Protection contre les menaces"
+                  "en": "Easy Security",
+                  "fr": "Easy Security"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_THREAT_PROTECTION?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_THREAT_PROTECTION?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_EASY_SECURITY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_EASY_SECURITY?locale=fr"
+                }
+              },
+              "email-protection-suite": {
+                "id": "email-protection-suite",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Email Protection Suite",
+                  "fr": "Email Protection Suite"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_EMAIL_PROTECTION?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_EMAIL_PROTECTION?locale=fr"
+                }
+              },
+              "flexible-security-platform-cloud-france": {
+                "id": "flexible-security-platform-cloud-france",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Security Platform Cloud France",
+                  "fr": "Flexible Security Platform Cloud France"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_FR?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_FR?locale=fr"
+                }
+              },
+              "flexible-security-platform-cloud-international": {
+                "id": "flexible-security-platform-cloud-international",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Security Platform Cloud International",
+                  "fr": "Flexible Security Platform Cloud International"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_INTL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_SECURITY_INTL?locale=fr"
+                }
+              },
+              "managed-firewall": {
+                "id": "managed-firewall",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Managed Firewall",
+                  "fr": "Managed Firewall"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_FIREWALL?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_FIREWALL?locale=fr"
+                }
+              },
+              "unified-defense": {
+                "id": "unified-defense",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Unified Defense",
+                  "fr": "Unified Defense"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_DEFENSE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_UNIFIED_DEFENSE?locale=fr"
                 }
               }
             }
@@ -631,38 +1617,55 @@
             },
             "type": "submenu",
             "items": {
-              "orders-overview": {
-                "id": "orders-overview",
+              "pending-customer-action": {
+                "id": "pending-customer-action",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Orders Overview",
-                  "fr": "Aperçu des commandes"
+                  "en": "Pending Customer Action",
+                  "fr": "Action client en attente"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ORDERS_OVERVIEW?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORDERS_OVERVIEW?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_CUSTOMER_ACTION?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_CUSTOMER_ACTION?locale=fr"
                 }
               },
-              "pending-orders": {
-                "id": "pending-orders",
+              "pending-orange-action": {
+                "id": "pending-orange-action",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Pending Orders",
-                  "fr": "Commandes en attente"
+                  "en": "Pending Orange Action",
+                  "fr": "Action Orange en attente"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORDERS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORDERS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORANGE_ACTION?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_ORANGE_ACTION?locale=fr"
+                }
+              },
+              "orders-in-delivery": {
+                "id": "orders-in-delivery",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Orders in Delivery",
+                  "fr": "Commandes en livraison"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_ORDERS_IN_DELIVERY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORDERS_IN_DELIVERY?locale=fr"
                 }
               }
             }
@@ -678,21 +1681,427 @@
             },
             "type": "submenu",
             "items": {
-              "order-cloud-services": {
-                "id": "order-cloud-services",
+              "business-vpn-gallery": {
+                "id": "business-vpn-gallery",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Order Cloud Services",
-                  "fr": "Commander des services Cloud"
+                  "en": "Business VPN Gallery",
+                  "fr": "Business VPN Gallery"
                 },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_ORDER_CLOUD?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_ORDER_CLOUD?locale=fr"
+                "type": "submenu",
+                "items": {
+                  "business-vpn-gallery-order": {
+                    "id": "business-vpn-gallery-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_ORDER?locale=fr"
+                    }
+                  },
+                  "business-vpn-gallery-track": {
+                    "id": "business-vpn-gallery-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALLERY_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "chic": {
+                "id": "chic",
+                "level": 2,
+                "order": 2,
+                "status": "active",
+                "label": {
+                  "en": "CHIC",
+                  "fr": "CHIC"
+                },
+                "type": "submenu",
+                "items": {
+                  "chic-order": {
+                    "id": "chic-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_CHIC_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_CHIC_ORDER?locale=fr"
+                    }
+                  },
+                  "chic-track": {
+                    "id": "chic-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_CHIC_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_CHIC_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "cloud-avenue-ordering": {
+                "id": "cloud-avenue-ordering",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Cloud Avenue",
+                  "fr": "Cloud Avenue"
+                },
+                "type": "submenu",
+                "items": {
+                  "cloud-avenue-order": {
+                    "id": "cloud-avenue-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_ORDER?locale=fr"
+                    }
+                  },
+                  "cloud-avenue-track": {
+                    "id": "cloud-avenue-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_CLOUD_AVENUE_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "flexible-engine-ordering": {
+                "id": "flexible-engine-ordering",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Engine",
+                  "fr": "Flexible Engine"
+                },
+                "type": "submenu",
+                "items": {
+                  "flexible-engine-order": {
+                    "id": "flexible-engine-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_ORDER?locale=fr"
+                    }
+                  },
+                  "flexible-engine-track": {
+                    "id": "flexible-engine-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "flexible-engine-sap": {
+                "id": "flexible-engine-sap",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Engine for SAP Solutions",
+                  "fr": "Flexible Engine for SAP Solutions"
+                },
+                "type": "submenu",
+                "items": {
+                  "flexible-engine-sap-order": {
+                    "id": "flexible-engine-sap-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_ORDER?locale=fr"
+                    }
+                  },
+                  "flexible-engine-sap-track": {
+                    "id": "flexible-engine-sap-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_SAP_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "flexible-engine-hds": {
+                "id": "flexible-engine-hds",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Engine HDS",
+                  "fr": "Flexible Engine HDS"
+                },
+                "type": "submenu",
+                "items": {
+                  "flexible-engine-hds-order": {
+                    "id": "flexible-engine-hds-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_ORDER?locale=fr"
+                    }
+                  },
+                  "flexible-engine-hds-track": {
+                    "id": "flexible-engine-hds-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_HDS_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "flexible-engine-managed": {
+                "id": "flexible-engine-managed",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Flexible Engine Managed",
+                  "fr": "Flexible Engine Managed"
+                },
+                "type": "submenu",
+                "items": {
+                  "flexible-engine-managed-order": {
+                    "id": "flexible-engine-managed-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_ORDER?locale=fr"
+                    }
+                  },
+                  "flexible-engine-managed-track": {
+                    "id": "flexible-engine-managed-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_FLEXIBLE_ENGINE_MANAGED_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "managed-applications-ordering": {
+                "id": "managed-applications-ordering",
+                "level": 2,
+                "order": 8,
+                "status": "active",
+                "label": {
+                  "en": "Managed Applications",
+                  "fr": "Managed Applications"
+                },
+                "type": "submenu",
+                "items": {
+                  "managed-applications-order": {
+                    "id": "managed-applications-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_ORDER?locale=fr"
+                    }
+                  },
+                  "managed-applications-track": {
+                    "id": "managed-applications-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_APPS_TRACK?locale=fr"
+                    }
+                  }
+                }
+              },
+              "domain-name": {
+                "id": "domain-name",
+                "level": 2,
+                "order": 9,
+                "status": "active",
+                "label": {
+                  "en": "Domain Name",
+                  "fr": "Domain Name"
+                },
+                "type": "submenu",
+                "items": {
+                  "domain-name-order": {
+                    "id": "domain-name-order",
+                    "level": 3,
+                    "order": 1,
+                    "status": "active",
+                    "label": {
+                      "en": "Commander",
+                      "fr": "Commander"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_ORDER?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_ORDER?locale=fr"
+                    }
+                  },
+                  "domain-name-track": {
+                    "id": "domain-name-track",
+                    "level": 3,
+                    "order": 2,
+                    "status": "active",
+                    "label": {
+                      "en": "Suivre mes commandes",
+                      "fr": "Suivre mes commandes"
+                    },
+                    "type": "link",
+                    "target": "iframe",
+                    "closePanels": true,
+                    "url": {
+                      "en": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_TRACK?locale=en",
+                      "fr": "https://embed.figma.com/proto/EXAMPLE_DOMAIN_NAME_TRACK?locale=fr"
+                    }
+                  }
                 }
               }
             }
@@ -993,85 +2402,38 @@
           "fr": "Maintenance"
         },
         "items": {
-          "planned-maintenance": {
-            "id": "planned-maintenance",
+          "orange-carrier-maintenance": {
+            "id": "orange-carrier-maintenance",
             "level": 1,
             "order": 1,
             "status": "active",
             "label": {
-              "en": "Planned Maintenance",
-              "fr": "Maintenance planifiée"
+              "en": "Orange - Carrier Maintenance",
+              "fr": "Orange - Carrier Maintenance"
             },
             "type": "link",
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_PLANNED_MAINTENANCE?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_PLANNED_MAINTENANCE?locale=fr"
+              "en": "https://embed.figma.com/proto/EXAMPLE_ORANGE_CARRIER_MAINTENANCE?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_ORANGE_CARRIER_MAINTENANCE?locale=fr"
             }
           },
-          "maintenance-calendar": {
-            "id": "maintenance-calendar",
+          "maintenance-subscription": {
+            "id": "maintenance-subscription",
             "level": 1,
             "order": 2,
             "status": "active",
             "label": {
-              "en": "Maintenance Calendar",
-              "fr": "Calendrier de maintenance"
+              "en": "Maintenance Subscription",
+              "fr": "Maintenance Subscription"
             },
             "type": "link",
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_CALENDAR?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_CALENDAR?locale=fr"
-            }
-          },
-          "maintenance-notifications": {
-            "id": "maintenance-notifications",
-            "level": 1,
-            "order": 3,
-            "status": "active",
-            "label": {
-              "en": "Notifications",
-              "fr": "Notifications"
-            },
-            "type": "submenu",
-            "items": {
-              "upcoming-maintenance": {
-                "id": "upcoming-maintenance",
-                "level": 2,
-                "order": 1,
-                "status": "active",
-                "label": {
-                  "en": "Upcoming Maintenance",
-                  "fr": "Maintenance à venir"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_UPCOMING_MAINTENANCE?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_UPCOMING_MAINTENANCE?locale=fr"
-                }
-              },
-              "maintenance-alerts": {
-                "id": "maintenance-alerts",
-                "level": 2,
-                "order": 2,
-                "status": "active",
-                "label": {
-                  "en": "Alerts",
-                  "fr": "Alertes"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_ALERTS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_ALERTS?locale=fr"
-                }
-              }
+              "en": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_SUBSCRIPTION?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_MAINTENANCE_SUBSCRIPTION?locale=fr"
             }
           }
         }
@@ -1093,102 +2455,38 @@
           "fr": "Changements"
         },
         "items": {
-          "request-change": {
-            "id": "request-change",
+          "list-of-change-requests": {
+            "id": "list-of-change-requests",
             "level": 1,
             "order": 1,
             "status": "active",
             "label": {
-              "en": "Request Change",
-              "fr": "Demander un changement"
+              "en": "List of change requests",
+              "fr": "Liste des demandes de changement"
             },
             "type": "link",
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_REQUEST_CHANGE?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_REQUEST_CHANGE?locale=fr"
+              "en": "https://embed.figma.com/proto/EXAMPLE_LIST_CHANGE_REQUESTS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_LIST_CHANGE_REQUESTS?locale=fr"
             }
           },
-          "change-requests": {
-            "id": "change-requests",
+          "change-requests-history": {
+            "id": "change-requests-history",
             "level": 1,
             "order": 2,
             "status": "active",
             "label": {
-              "en": "Change Requests",
-              "fr": "Demandes de changement"
+              "en": "Change requests history",
+              "fr": "Historique des demandes de changement"
             },
             "type": "link",
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS?locale=fr"
-            }
-          },
-          "change-management": {
-            "id": "change-management",
-            "level": 1,
-            "order": 3,
-            "status": "active",
-            "label": {
-              "en": "Change Management",
-              "fr": "Gestion des changements"
-            },
-            "type": "submenu",
-            "items": {
-              "pending-changes": {
-                "id": "pending-changes",
-                "level": 2,
-                "order": 1,
-                "status": "active",
-                "label": {
-                  "en": "Pending Changes",
-                  "fr": "Changements en attente"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PENDING_CHANGES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PENDING_CHANGES?locale=fr"
-                }
-              },
-              "approved-changes": {
-                "id": "approved-changes",
-                "level": 2,
-                "order": 2,
-                "status": "active",
-                "label": {
-                  "en": "Approved Changes",
-                  "fr": "Changements approuvés"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_APPROVED_CHANGES?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_APPROVED_CHANGES?locale=fr"
-                }
-              },
-              "change-history": {
-                "id": "change-history",
-                "level": 2,
-                "order": 3,
-                "status": "active",
-                "label": {
-                  "en": "Change History",
-                  "fr": "Historique des changements"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CHANGE_HISTORY?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CHANGE_HISTORY?locale=fr"
-                }
-              }
+              "en": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS_HISTORY?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_CHANGE_REQUESTS_HISTORY?locale=fr"
             }
           }
         }
@@ -1210,113 +2508,249 @@
           "fr": "Rapports et analyses"
         },
         "items": {
-          "reports-dashboard": {
-            "id": "reports-dashboard",
+          "network-monitoring": {
+            "id": "network-monitoring",
             "level": 1,
             "order": 1,
             "status": "active",
             "label": {
-              "en": "Reports Dashboard",
-              "fr": "Tableau de bord des rapports"
+              "en": "Network Monitoring",
+              "fr": "Network Monitoring"
             },
             "type": "link",
             "target": "iframe",
             "closePanels": true,
             "url": {
-              "en": "https://embed.figma.com/proto/EXAMPLE_REPORTS_DASHBOARD?locale=en",
-              "fr": "https://embed.figma.com/proto/EXAMPLE_REPORTS_DASHBOARD?locale=fr"
+              "en": "https://embed.figma.com/proto/EXAMPLE_NETWORK_MONITORING?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_NETWORK_MONITORING?locale=fr"
             }
           },
-          "custom-reports": {
-            "id": "custom-reports",
+          "usage-et-performance": {
+            "id": "usage-et-performance",
             "level": 1,
             "order": 2,
             "status": "active",
             "label": {
-              "en": "Custom Reports",
-              "fr": "Rapports personnalisés"
+              "en": "Usage et performance",
+              "fr": "Usage et performance"
             },
-            "type": "submenu",
-            "items": {
-              "create-report": {
-                "id": "create-report",
-                "level": 2,
-                "order": 1,
-                "status": "active",
-                "label": {
-                  "en": "Create Report",
-                  "fr": "Créer un rapport"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_CREATE_REPORT?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_CREATE_REPORT?locale=fr"
-                }
-              },
-              "saved-reports": {
-                "id": "saved-reports",
-                "level": 2,
-                "order": 2,
-                "status": "active",
-                "label": {
-                  "en": "Saved Reports",
-                  "fr": "Rapports enregistrés"
-                },
-                "type": "link",
-                "target": "iframe",
-                "closePanels": true,
-                "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_SAVED_REPORTS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_SAVED_REPORTS?locale=fr"
-                }
-              }
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_USAGE_PERFORMANCE?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_USAGE_PERFORMANCE?locale=fr"
             }
           },
-          "analytics": {
-            "id": "analytics",
+          "monthly-reports": {
+            "id": "monthly-reports",
             "level": 1,
             "order": 3,
             "status": "active",
             "label": {
-              "en": "Analytics",
-              "fr": "Analyses"
+              "en": "Monthly reports",
+              "fr": "Monthly reports"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_MONTHLY_REPORTS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_MONTHLY_REPORTS?locale=fr"
+            }
+          },
+          "global-reports": {
+            "id": "global-reports",
+            "level": 1,
+            "order": 4,
+            "status": "active",
+            "label": {
+              "en": "Global reports",
+              "fr": "Global reports"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_GLOBAL_REPORTS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_GLOBAL_REPORTS?locale=fr"
+            }
+          },
+          "reporting-and-analytics": {
+            "id": "reporting-and-analytics",
+            "level": 1,
+            "order": 5,
+            "status": "active",
+            "label": {
+              "en": "Reporting and analytics",
+              "fr": "Reporting and analytics"
+            },
+            "type": "link",
+            "target": "iframe",
+            "closePanels": true,
+            "url": {
+              "en": "https://embed.figma.com/proto/EXAMPLE_REPORTING_ANALYTICS?locale=en",
+              "fr": "https://embed.figma.com/proto/EXAMPLE_REPORTING_ANALYTICS?locale=fr"
+            }
+          },
+          "internet-and-networks-reporting": {
+            "id": "internet-and-networks-reporting",
+            "level": 1,
+            "order": 6,
+            "status": "active",
+            "label": {
+              "en": "Internet and networks",
+              "fr": "Internet and networks"
             },
             "type": "submenu",
             "items": {
-              "usage-analytics": {
-                "id": "usage-analytics",
+              "business-vpn-ip-bandwidth": {
+                "id": "business-vpn-ip-bandwidth",
                 "level": 2,
                 "order": 1,
                 "status": "active",
                 "label": {
-                  "en": "Usage Analytics",
-                  "fr": "Analyses d'utilisation"
+                  "en": "Business VPN - IP bandwidth utilization",
+                  "fr": "Business VPN - IP bandwidth utilization"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_USAGE_ANALYTICS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_USAGE_ANALYTICS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_BANDWIDTH?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_BANDWIDTH?locale=fr"
                 }
               },
-              "performance-metrics": {
-                "id": "performance-metrics",
+              "business-vpn-galerie": {
+                "id": "business-vpn-galerie",
                 "level": 2,
                 "order": 2,
                 "status": "active",
                 "label": {
-                  "en": "Performance Metrics",
-                  "fr": "Métriques de performance"
+                  "en": "Business VPN Galerie",
+                  "fr": "Business VPN Galerie"
                 },
                 "type": "link",
                 "target": "iframe",
                 "closePanels": true,
                 "url": {
-                  "en": "https://embed.figma.com/proto/EXAMPLE_PERFORMANCE_METRICS?locale=en",
-                  "fr": "https://embed.figma.com/proto/EXAMPLE_PERFORMANCE_METRICS?locale=fr"
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_VPN_GALERIE?locale=fr"
+                }
+              },
+              "internet-platinium-bandwidth": {
+                "id": "internet-platinium-bandwidth",
+                "level": 2,
+                "order": 3,
+                "status": "active",
+                "label": {
+                  "en": "Internet Platinium - IP bandwidth utilization",
+                  "fr": "Internet Platinium - IP bandwidth utilization"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINIUM_BANDWIDTH?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_INTERNET_PLATINIUM_BANDWIDTH?locale=fr"
+                }
+              },
+              "managed-lan-device-performance": {
+                "id": "managed-lan-device-performance",
+                "level": 2,
+                "order": 4,
+                "status": "active",
+                "label": {
+                  "en": "Managed LAN - Device performance",
+                  "fr": "Managed LAN - Device performance"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN_DEVICE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_MANAGED_LAN_DEVICE?locale=fr"
+                }
+              },
+              "path-performance": {
+                "id": "path-performance",
+                "level": 2,
+                "order": 5,
+                "status": "active",
+                "label": {
+                  "en": "Path performance",
+                  "fr": "Path performance"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_PATH_PERFORMANCE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_PATH_PERFORMANCE?locale=fr"
+                }
+              },
+              "real-time-monitoring": {
+                "id": "real-time-monitoring",
+                "level": 2,
+                "order": 6,
+                "status": "active",
+                "label": {
+                  "en": "Real-time monitoring",
+                  "fr": "Real-time monitoring"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_REAL_TIME_MONITORING?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_REAL_TIME_MONITORING?locale=fr"
+                }
+              },
+              "site-path-availability": {
+                "id": "site-path-availability",
+                "level": 2,
+                "order": 7,
+                "status": "active",
+                "label": {
+                  "en": "Site path availability",
+                  "fr": "Site path availability"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_SITE_PATH_AVAILABILITY?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_SITE_PATH_AVAILABILITY?locale=fr"
+                }
+              }
+            }
+          },
+          "fixed-line-voip-reporting": {
+            "id": "fixed-line-voip-reporting",
+            "level": 1,
+            "order": 7,
+            "status": "active",
+            "label": {
+              "en": "Fixed-line and VoIP telephony",
+              "fr": "Fixed-line and VoIP telephony"
+            },
+            "type": "submenu",
+            "items": {
+              "business-talk-usage-performance": {
+                "id": "business-talk-usage-performance",
+                "level": 2,
+                "order": 1,
+                "status": "active",
+                "label": {
+                  "en": "Business Talk - Usage and performance",
+                  "fr": "Business Talk - Usage and performance"
+                },
+                "type": "link",
+                "target": "iframe",
+                "closePanels": true,
+                "url": {
+                  "en": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_USAGE?locale=en",
+                  "fr": "https://embed.figma.com/proto/EXAMPLE_BUSINESS_TALK_USAGE?locale=fr"
                 }
               }
             }
