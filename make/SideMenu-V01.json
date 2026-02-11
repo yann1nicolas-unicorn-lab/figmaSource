@@ -28,8 +28,8 @@
       "order": 1,
       "status": "active",
       "label": {
-        "en": "Homeaa",
-        "fr": "Accueilaa"
+        "en": "Home",
+        "fr": "Accueil"
       },
       "type": "link",
       "target": "iframe",
