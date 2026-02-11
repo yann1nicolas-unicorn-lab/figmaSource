@@ -28,8 +28,8 @@
       "order": 1,
       "status": "active",
       "label": {
-        "en": "Home",
-        "fr": "Accueil"
+        "en": "HomeX",
+        "fr": "AccueilX"
       },
       "type": "link",
       "target": "iframe",
