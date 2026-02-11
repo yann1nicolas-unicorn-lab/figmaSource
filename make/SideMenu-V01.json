@@ -23,8 +23,8 @@
   },
   "menus": {
     "home": {
-      "id": "home",
-      "icon": "home",
+      "id": "homeZ",
+      "icon": "homeZ",
       "order": 1,
       "status": "active",
       "label": {
