@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests-catalog>
+  <metadata>
+    <version>1.0</version>
+    <last-updated>2025-01-15</last-updated>
+  </metadata>
+  
+  <available-tests>
+    <test id="test-001" enabled="true">
+      <name>Test UX Orange Pro - Cyber Sécurité</name>
+      <description>Test utilisateur sur le parcours de souscription cyber sécurité</description>
+      <xml-file>test-cyber-security.xml</xml-file>
+      <available-languages>
+        <language code="fr">Français</language>
+        <language code="en">English</language>
+        <language code="es">Español</language>
+      </available-languages>
+      <tags>
+        <tag>ux</tag>
+        <tag>security</tag>
+        <tag>orange-pro</tag>
+      </tags>
+    </test>
+    
+    <test id="test-002" enabled="true">
+      <name>Test Navigation Mobile</name>
+      <description>Évaluation de l'ergonomie mobile</description>
+      <xml-file>test-mobile-nav.xml</xml-file>
+      <available-languages>
+        <language code="fr">Français</language>
+        <language code="en">English</language>
+      </available-languages>
+      <tags>
+        <tag>mobile</tag>
+        <tag>navigation</tag>
+      </tags>
+    </test>
+    
+    <test id="test-003" enabled="false">
+      <name>Test Checkout Process</name>
+      <description>Test du tunnel d'achat</description>
+      <xml-file>test-checkout.xml</xml-file>
+      <available-languages>
+        <language code="fr">Français</language>
+      </available-languages>
+      <tags>
+        <tag>ecommerce</tag>
+      </tags>
+    </test>
+  </available-tests>
+</tests-catalog>
