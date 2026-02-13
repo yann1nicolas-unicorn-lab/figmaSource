@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests-catalog>
   <available-tests>
-    <test id="test-001" enabled="true">
+    <test id="test-001" enabled="false">
       <general-info>
         <name>Test UX Orange Pro</name>
         <description>Test d'expérience utilisateur sur le parcours de souscription</description>
