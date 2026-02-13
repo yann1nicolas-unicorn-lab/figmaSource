@@ -6,15 +6,35 @@
   </metadata>
   
   <available-tests>
+    <!-- Test 1 -->
     <test id="test-001" enabled="true">
-      <name>Test UX Orange Pro - Cyber Sécurité</name>
-      <description>Test utilisateur sur le parcours de souscription cyber sécurité</description>
-      <xml-file>test-cyber-security.xml</xml-file>
+      <general-info>
+        <name>Test UX Orange Pro - Cyber Security</name>
+        <description>User test on cyber security subscription journey</description>
+        <xml-file>test-cyber-security.xml</xml-file>
+      </general-info>
+      
+      <test-management>
+        <test-type>internal</test-type> <!-- internal | external -->
+        <entity>OB</entity> <!-- OB | Vibe | etc. -->
+        <product>Evolution Platform</product>
+        <responsible>
+          <name>Dupont Marie</name>
+          <email>marie.dupont@orange.com</email>
+        </responsible>
+      </test-management>
+      
+      <questionnaire>
+        <enabled>true</enabled>
+        <url>https://forms.office.com/r/abc123xyz</url>
+      </questionnaire>
+      
       <available-languages>
         <language code="fr">Français</language>
         <language code="en">English</language>
         <language code="es">Español</language>
       </available-languages>
+      
       <tags>
         <tag>ux</tag>
         <tag>security</tag>
@@ -22,29 +42,107 @@
       </tags>
     </test>
     
+    <!-- Test 2 -->
     <test id="test-002" enabled="true">
-      <name>Test Navigation Mobile</name>
-      <description>Évaluation de l'ergonomie mobile</description>
-      <xml-file>test-mobile-nav.xml</xml-file>
+      <general-info>
+        <name>Mobile Navigation Assessment</name>
+        <description>Mobile ergonomics evaluation</description>
+        <xml-file>test-mobile-nav.xml</xml-file>
+      </general-info>
+      
+      <test-management>
+        <test-type>external</test-type>
+        <entity>Vibe</entity>
+        <product>Mobile App 2.0</product>
+        <responsible>
+          <name>Martin Jean</name>
+          <email>jean.martin@orange.com</email>
+        </responsible>
+      </test-management>
+      
+      <questionnaire>
+        <enabled>true</enabled>
+        <url>https://forms.office.com/r/mobile-test-456</url>
+      </questionnaire>
+      
       <available-languages>
         <language code="fr">Français</language>
         <language code="en">English</language>
       </available-languages>
+      
       <tags>
         <tag>mobile</tag>
         <tag>navigation</tag>
+        <tag>ergonomics</tag>
       </tags>
     </test>
     
+    <!-- Test 3 -->
     <test id="test-003" enabled="false">
-      <name>Test Checkout Process</name>
-      <description>Test du tunnel d'achat</description>
-      <xml-file>test-checkout.xml</xml-file>
+      <general-info>
+        <name>E-commerce Checkout Flow</name>
+        <description>Testing the purchase funnel</description>
+        <xml-file>test-checkout.xml</xml-file>
+      </general-info>
+      
+      <test-management>
+        <test-type>internal</test-type>
+        <entity>OB</entity>
+        <product>Orange Store</product>
+        <responsible>
+          <name>Bernard Sophie</name>
+          <email>sophie.bernard@orange.com</email>
+        </responsible>
+      </test-management>
+      
+      <questionnaire>
+        <enabled>false</enabled>
+        <url></url>
+      </questionnaire>
+      
       <available-languages>
         <language code="fr">Français</language>
       </available-languages>
+      
       <tags>
         <tag>ecommerce</tag>
+        <tag>checkout</tag>
+      </tags>
+    </test>
+    
+    <!-- Test 4 - Exemple sans questionnaire -->
+    <test id="test-004" enabled="true">
+      <general-info>
+        <name>Dashboard Analytics UX</name>
+        <description>Analytics dashboard user experience test</description>
+        <xml-file>test-dashboard-analytics.xml</xml-file>
+      </general-info>
+      
+      <test-management>
+        <test-type>external</test-type>
+        <entity>Vibe</entity>
+        <product>Business Intelligence Suite</product>
+        <responsible>
+          <name>Leroy Thomas</name>
+          <email>thomas.leroy@orange.com</email>
+        </responsible>
+      </test-management>
+      
+      <questionnaire>
+        <enabled>false</enabled>
+        <url></url>
+      </questionnaire>
+      
+      <available-languages>
+        <language code="fr">Français</language>
+        <language code="en">English</language>
+        <language code="de">Deutsch</language>
+      </available-languages>
+      
+      <tags>
+        <tag>dashboard</tag>
+        <tag>analytics</tag>
+        <tag>b2b</tag>
       </tags>
     </test>
   </available-tests>
