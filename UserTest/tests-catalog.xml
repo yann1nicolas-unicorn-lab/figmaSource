@@ -6,35 +6,53 @@
   </metadata>
   
   <available-tests>
-    <!-- Test 1 -->
+    <!-- ========================================
+         Test 1 - Exemple complet avec commentaires
+         ======================================== -->
     <test id="test-001" enabled="true">
+      
+      <!-- Informations générales sur le test -->
       <general-info>
         <name>Test UX Orange Pro - Cyber Security</name>
         <description>User test on cyber security subscription journey</description>
+        <!-- Fichier XML contenant la définition complète du test (étapes, contenu, etc.) -->
         <xml-file>test-cyber-security.xml</xml-file>
       </general-info>
       
+      <!-- Gestion et organisation du test -->
       <test-management>
-        <test-type>internal</test-type> <!-- internal | external -->
-        <entity>OB</entity> <!-- OB | Vibe | etc. -->
+        <!-- Type de test : "internal" (interne Orange) ou "external" (externe/utilisateurs) -->
+        <test-type>internal</test-type>
+        
+        <!-- Entité responsable : OB (Orange Business), Vibe, etc. -->
+        <entity>OB</entity>
+        
+        <!-- Nom du produit ou service testé -->
         <product>Evolution Platform</product>
+        
+        <!-- Responsable du test -->
         <responsible>
           <name>Dupont Marie</name>
           <email>marie.dupont@orange.com</email>
         </responsible>
       </test-management>
       
+      <!-- Configuration du questionnaire post-test -->
       <questionnaire>
+        <!-- Activer (true) ou désactiver (false) le questionnaire -->
         <enabled>true</enabled>
+        <!-- URL du questionnaire (Forms, Typeform, etc.) -->
         <url>https://forms.office.com/r/abc123xyz</url>
       </questionnaire>
       
+      <!-- Langues disponibles pour ce test -->
       <available-languages>
         <language code="fr">Français</language>
         <language code="en">English</language>
         <language code="es">Español</language>
       </available-languages>
       
+      <!-- Tags pour catégoriser et filtrer les tests -->
       <tags>
         <tag>ux</tag>
         <tag>security</tag>
