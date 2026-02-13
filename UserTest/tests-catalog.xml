@@ -1,167 +1,213 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests-catalog>
-  <metadata>
-    <version>1.0</version>
-    <last-updated>2025-01-15</last-updated>
-  </metadata>
-  
   <available-tests>
-    <!-- ========================================
-         Test 1 - Exemple complet avec commentaires
-         ======================================== -->
     <test id="test-001" enabled="true">
-      
-      <!-- Informations générales sur le test -->
       <general-info>
-        <name>Test UX Orange Pro - Cyber Security</name>
-        <description>User test on cyber security subscription journey</description>
-        <!-- Fichier XML contenant la définition complète du test (étapes, contenu, etc.) -->
-        <xml-file>test-cyber-security.xml</xml-file>
+        <name>Test UX Orange Pro</name>
+        <description>Test d'expérience utilisateur sur le parcours de souscription</description>
+        <xml-file>test1.xml</xml-file>
       </general-info>
-      
-      <!-- Gestion et organisation du test -->
       <test-management>
-        <!-- Type de test : "internal" (interne Orange) ou "external" (externe/utilisateurs) -->
         <test-type>internal</test-type>
-        
-        <!-- Entité responsable : OB (Orange Business), Vibe, etc. -->
         <entity>OB</entity>
-        
-        <!-- Nom du produit ou service testé -->
-        <product>Evolution Platform</product>
-        
-        <!-- Responsable du test -->
+        <product>Orange Pro</product>
         <responsible>
-          <name>Dupont Marie</name>
+          <name>Marie Dupont</name>
           <email>marie.dupont@orange.com</email>
         </responsible>
       </test-management>
-      
-      <!-- Configuration du questionnaire post-test -->
-      <questionnaire>
-        <!-- Activer (true) ou désactiver (false) le questionnaire -->
-        <enabled>true</enabled>
-        <!-- URL du questionnaire (Forms, Typeform, etc.) -->
-        <url>https://forms.office.com/r/abc123xyz</url>
-      </questionnaire>
-      
-      <!-- Langues disponibles pour ce test -->
-      <available-languages>
-        <language code="fr">Français</language>
-        <language code="en">English</language>
-        <language code="es">Español</language>
-      </available-languages>
-      
-      <!-- Tags pour catégoriser et filtrer les tests -->
-      <tags>
-        <tag>ux</tag>
-        <tag>security</tag>
-        <tag>orange-pro</tag>
-      </tags>
     </test>
-    
-    <!-- Test 2 -->
     <test id="test-002" enabled="true">
       <general-info>
-        <name>Mobile Navigation Assessment</name>
-        <description>Mobile ergonomics evaluation</description>
-        <xml-file>test-mobile-nav.xml</xml-file>
+        <name>Mobile Navigation Test</name>
+        <description>Évaluation de l'ergonomie mobile</description>
+        <xml-file>test2.xml</xml-file>
       </general-info>
-      
       <test-management>
         <test-type>external</test-type>
         <entity>Vibe</entity>
-        <product>Mobile App 2.0</product>
+        <product>Mobile App</product>
         <responsible>
-          <name>Martin Jean</name>
+          <name>Jean Martin</name>
           <email>jean.martin@orange.com</email>
         </responsible>
       </test-management>
-      
-      <questionnaire>
-        <enabled>true</enabled>
-        <url>https://forms.office.com/r/mobile-test-456</url>
-      </questionnaire>
-      
-      <available-languages>
-        <language code="fr">Français</language>
-        <language code="en">English</language>
-      </available-languages>
-      
-      <tags>
-        <tag>mobile</tag>
-        <tag>navigation</tag>
-        <tag>ergonomics</tag>
-      </tags>
     </test>
-    
-    <!-- Test 3 -->
-    <test id="test-003" enabled="false">
-      <general-info>
-        <name>E-commerce Checkout Flow</name>
-        <description>Testing the purchase funnel</description>
-        <xml-file>test-checkout.xml</xml-file>
-      </general-info>
-      
-      <test-management>
-        <test-type>internal</test-type>
-        <entity>OB</entity>
-        <product>Orange Store</product>
-        <responsible>
-          <name>Bernard Sophie</name>
-          <email>sophie.bernard@orange.com</email>
-        </responsible>
-      </test-management>
-      
-      <questionnaire>
-        <enabled>false</enabled>
-        <url></url>
-      </questionnaire>
-      
-      <available-languages>
-        <language code="fr">Français</language>
-      </available-languages>
-      
-      <tags>
-        <tag>ecommerce</tag>
-        <tag>checkout</tag>
-      </tags>
-    </test>
-    
-    <!-- Test 4 - Exemple sans questionnaire -->
-    <test id="test-004" enabled="true">
+    <test id="test-003" enabled="true">
       <general-info>
         <name>Dashboard Analytics UX</name>
-        <description>Analytics dashboard user experience test</description>
-        <xml-file>test-dashboard-analytics.xml</xml-file>
+        <description>Test d'utilisabilité du tableau de bord analytique</description>
+        <xml-file>test3.xml</xml-file>
       </general-info>
-      
       <test-management>
-        <test-type>external</test-type>
+        <test-type>internal</test-type>
         <entity>Vibe</entity>
-        <product>Business Intelligence Suite</product>
+        <product>BI Suite</product>
         <responsible>
-          <name>Leroy Thomas</name>
+          <name>Thomas Leroy</name>
           <email>thomas.leroy@orange.com</email>
         </responsible>
       </test-management>
-      
-      <questionnaire>
-        <enabled>false</enabled>
-        <url></url>
-      </questionnaire>
-      
-      <available-languages>
-        <language code="fr">Français</language>
-        <language code="en">English</language>
-        <language code="de">Deutsch</language>
-      </available-languages>
-      
-      <tags>
-        <tag>dashboard</tag>
-        <tag>analytics</tag>
-        <tag>b2b</tag>
-      </tags>
+    </test>
+    <test id="test-004" enabled="true">
+      <general-info>
+        <name>E-commerce Checkout Flow</name>
+        <description>Optimisation du tunnel d'achat en ligne</description>
+        <xml-file>test4.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>external</test-type>
+        <entity>OB</entity>
+        <product>Orange Store</product>
+        <responsible>
+          <name>Sophie Bernard</name>
+          <email>sophie.bernard@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-005" enabled="true">
+      <general-info>
+        <name>Onboarding Process</name>
+        <description>Parcours d'intégration des nouveaux utilisateurs</description>
+        <xml-file>test5.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>internal</test-type>
+        <entity>Vibe</entity>
+        <product>Customer Portal</product>
+        <responsible>
+          <name>Lucas Petit</name>
+          <email>lucas.petit@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-006" enabled="true">
+      <general-info>
+        <name>Search Functionality Test</name>
+        <description>Évaluation de la fonction de recherche avancée</description>
+        <xml-file>test6.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>external</test-type>
+        <entity>OB</entity>
+        <product>Enterprise Search</product>
+        <responsible>
+          <name>Emma Dubois</name>
+          <email>emma.dubois@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-007" enabled="true">
+      <general-info>
+        <name>Payment Gateway UX</name>
+        <description>Expérience utilisateur sur la plateforme de paiement</description>
+        <xml-file>test7.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>internal</test-type>
+        <entity>OB</entity>
+        <product>Payment Platform</product>
+        <responsible>
+          <name>Pierre Moreau</name>
+          <email>pierre.moreau@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-008" enabled="true">
+      <general-info>
+        <name>Notification System</name>
+        <description>Test du système de notifications push et email</description>
+        <xml-file>test8.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>external</test-type>
+        <entity>Vibe</entity>
+        <product>Messaging Service</product>
+        <responsible>
+          <name>Camille Rousseau</name>
+          <email>camille.rousseau@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-009" enabled="true">
+      <general-info>
+        <name>Multi-language Support</name>
+        <description>Validation de l'internationalisation multilingue</description>
+        <xml-file>test9.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>internal</test-type>
+        <entity>Vibe</entity>
+        <product>Global Platform</product>
+        <responsible>
+          <name>Antoine Blanc</name>
+          <email>antoine.blanc@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-010" enabled="true">
+      <general-info>
+        <name>Accessibility Compliance</name>
+        <description>Audit d'accessibilité WCAG 2.1 niveau AA</description>
+        <xml-file>test10.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>external</test-type>
+        <entity>OB</entity>
+        <product>Web Accessibility</product>
+        <responsible>
+          <name>Julie Garnier</name>
+          <email>julie.garnier@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-011" enabled="true">
+      <general-info>
+        <name>Video Streaming Quality</name>
+        <description>Test de la qualité de streaming vidéo HD et 4K</description>
+        <xml-file>test11.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>internal</test-type>
+        <entity>Vibe</entity>
+        <product>Media Platform</product>
+        <responsible>
+          <name>Nicolas Lambert</name>
+          <email>nicolas.lambert@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-012" enabled="true">
+      <general-info>
+        <name>Social Sharing Features</name>
+        <description>Fonctionnalités de partage sur les réseaux sociaux</description>
+        <xml-file>test12.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>external</test-type>
+        <entity>OB</entity>
+        <product>Social Connect</product>
+        <responsible>
+          <name>Léa Simon</name>
+          <email>lea.simon@orange.com</email>
+        </responsible>
+      </test-management>
+    </test>
+    <test id="test-013" enabled="true">
+      <general-info>
+        <name>Customer Support Chat</name>
+        <description>Interface de chat en direct avec support client</description>
+        <xml-file>test13.xml</xml-file>
+      </general-info>
+      <test-management>
+        <test-type>internal</test-type>
+        <entity>Vibe</entity>
+        <product>Live Chat</product>
+        <responsible>
+          <name>Hugo Vincent</name>
+          <email>hugo.vincent@orange.com</email>
+        </responsible>
+      </test-management>
     </test>
   </available-tests>
 </tests-catalog>
