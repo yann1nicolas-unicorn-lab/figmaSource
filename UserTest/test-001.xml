@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test-definition>
+  <metadata>
+    <test-id>test-001</test-id>
+    <test-name>Test UX Orange Pro - Cyber Sécurité</test-name>
+    <version>1.2</version>
+    <created-date>2025-01-10</created-date>
+    <author>UX Team Orange</author>
+  </metadata>
+
+  <configuration>
+    <default-language>fr</default-language>
+    <iframe-url>https://dime-badger-83553748.figma.site</iframe-url>
+    <modal-auto-open>true</modal-auto-open>
+    <show-feedback-button>true</show-feedback-button>
+    <feedback-button-position>right</feedback-button-position>
+  </configuration>
+
+  <!-- Langues supportées -->
+  <languages>
+    <language code="fr">
+      <labels>
+        <label key="button.previous">Retour</label>
+        <label key="button.next">Suivant</label>
+        <label key="button.start">Commencer</label>
+        <label key="button.finish">Terminer</label>
+        <label key="button.close">Fermer</label>
+        <label key="feedback.button">Your feedback</label>
+        <label key="rating.scale">Donnez une note, sur une échelle de 1 à 10 au parcours que vous venez de réaliser.</label>
+      </labels>
+    </language>
+    
+    <language code="en">
+      <labels>
+        <label key="button.previous">Back</label>
+        <label key="button.next">Next</label>
+        <label key="button.start">Start</label>
+        <label key="button.finish">Finish</label>
+        <label key="button.close">Close</label>
+        <label key="feedback.button">Your feedback</label>
+        <label key="rating.scale">Rate the experience you just completed on a scale of 1 to 10.</label>
+      </labels>
+    </language>
+    
+    <language code="es">
+      <labels>
+        <label key="button.previous">Volver</label>
+        <label key="button.next">Siguiente</label>
+        <label key="button.start">Comenzar</label>
+        <label key="button.finish">Terminar</label>
+        <label key="button.close">Cerrar</label>
+        <label key="feedback.button">Tus comentarios</label>
+        <label key="rating.scale">Califica la experiencia que acabas de completar en una escala de 1 a 10.</label>
+      </labels>
+    </language>
+  </languages>
+
+  <!-- Structure du parcours -->
+  <journey>
+    <!-- Étape Contexte -->
+    <step id="step-000" type="context">
+      <order>0</order>
+      <title lang="fr">Contexte</title>
+      <title lang="en">Context</title>
+      <title lang="es">Contexto</title>
+      
+      <content lang="fr">
+        <![CDATA[Vous avez déjà souscrit à une option pour protéger votre ordinateur d'une cyber menace.  
+Vous souhaitez élargir cette protection aux 4 autres ordinateurs de l'entreprise. 
+
+Vous consultez sur la vitrine Orange Pro, les options possibles pour protéger vos ordinateurs.  
+Vous comparez les options proposées en matière de sécurité. 
+
+Faites le nécessaire.]]>
+      </content>
+      
+      <content lang="en">
+        <![CDATA[You have already subscribed to an option to protect your computer from a cyber threat.
+You want to extend this protection to the 4 other computers in the company.
+
+You consult the Orange Pro showcase for available options to protect your computers.
+You compare the proposed security options.
+
+Do what is necessary.]]>
+      </content>
+      
+      <content lang="es">
+        <![CDATA[Ya has suscrito una opción para proteger tu ordenador de una amenaza cibernética.
+Quieres ampliar esta protección a los otros 4 ordenadores de la empresa.
+
+Consultas en el escaparate de Orange Pro las opciones disponibles para proteger tus ordenadores.
+Comparas las opciones de seguridad propuestas.
+
+Haz lo necesario.]]>
+      </content>
+    </step>
+
+    <!-- Scénario 1 -->
+    <scenario id="scenario-001" has-rating="true">
+      <scenario-title lang="fr">Scénario 1</scenario-title>
+      <scenario-title lang="en">Scenario 1</scenario-title>
+      <scenario-title lang="es">Escenario 1</scenario-title>
+      
+      <!-- Étape du scénario -->
+      <step id="step-001" type="scenario">
+        <order>1</order>
+        <title lang="fr">Scénario 1</title>
+        <title lang="en">Scenario 1</title>
+        <title lang="es">Escenario 1</title>
+        
+        <content lang="fr">
+          <![CDATA[Vous avez déjà souscrit à une option pour protéger votre ordinateur d'une cyber menace.  
+Vous souhaitez élargir cette protection aux 4 autres ordinateurs de l'entreprise. 
+
+Vous consultez sur la vitrine Orange Pro, les options possibles pour protéger vos ordinateurs.  
+Vous comparez les options proposées en matière de sécurité. 
+
+Faites le nécessaire.]]>
+        </content>
+        
+        <content lang="en">
+          <![CDATA[You have already subscribed to an option to protect your computer from a cyber threat.
+You want to extend this protection to the 4 other computers in the company.
+
+You consult the Orange Pro showcase for available options to protect your computers.
+You compare the proposed security options.
+
+Do what is necessary.]]>
+        </content>
+      </step>
+      
+      <!-- Étape d'évaluation (si has-rating="true") -->
+      <step id="step-001-rating" type="rating">
+        <order>2</order>
+        <title lang="fr">Scénario 1 - Evaluation</title>
+        <title lang="en">Scenario 1 - Evaluation</title>
+        <title lang="es">Escenario 1 - Evaluación</title>
+        
+        <content lang="fr" ref="rating.scale" />
+        <content lang="en" ref="rating.scale" />
+        <content lang="es" ref="rating.scale" />
+        
+        <rating-config>
+          <min>1</min>
+          <max>10</max>
+          <default-position>center</default-position>
+          <show-value-on-load>false</show-value-on-load>
+        </rating-config>
+      </step>
+    </scenario>
+
+    <!-- Scénario 2 -->
+    <scenario id="scenario-002" has-rating="true">
+      <scenario-title lang="fr">Scénario 2</scenario-title>
+      <scenario-title lang="en">Scenario 2</scenario-title>
+      <scenario-title lang="es">Escenario 2</scenario-title>
+      
+      <step id="step-002" type="scenario">
+        <order>3</order>
+        <title lang="fr">Scénario 2</title>
+        <title lang="en">Scenario 2</title>
+        <title lang="es">Escenario 2</title>
+        
+        <content lang="fr">
+          <![CDATA[Vous avez déjà souscrit à une option pour protéger votre ordinateur d'une cyber menace.  
+Vous souhaitez élargir cette protection aux 4 autres ordinateurs de l'entreprise. 
+
+Vous consultez sur la vitrine Orange Pro, les options possibles pour protéger vos ordinateurs.  
+Vous comparez les options proposées en matière de sécurité. 
+
+Faites le nécessaire.]]>
+        </content>
+      </step>
+      
+      <step id="step-002-rating" type="rating">
+        <order>4</order>
+        <title lang="fr">Scénario 2 - Evaluation</title>
+        <title lang="en">Scenario 2 - Evaluation</title>
+        
+        <content lang="fr" ref="rating.scale" />
+        <content lang="en" ref="rating.scale" />
+        
+        <rating-config>
+          <min>1</min>
+          <max>10</max>
+          <default-position>center</default-position>
+          <show-value-on-load>false</show-value-on-load>
+        </rating-config>
+      </step>
+    </scenario>
+
+    <!-- Scénario 3 -->
+    <scenario id="scenario-003" has-rating="true">
+      <scenario-title lang="fr">Scénario 3</scenario-title>
+      
+      <step id="step-003" type="scenario">
+        <order>5</order>
+        <title lang="fr">Scénario 3</title>
+        <content lang="fr">
+          <![CDATA[Vous avez déjà souscrit à une option pour protéger votre ordinateur d'une cyber menace.  
+Vous souhaitez élargir cette protection aux 4 autres ordinateurs de l'entreprise. 
+
+Vous consultez sur la vitrine Orange Pro, les options possibles pour protéger vos ordinateurs.  
+Vous comparez les options proposées en matière de sécurité. 
+
+Faites le nécessaire.]]>
+        </content>
+      </step>
+      
+      <step id="step-003-rating" type="rating">
+        <order>6</order>
+        <title lang="fr">Scénario 3 - Evaluation</title>
+        <content lang="fr" ref="rating.scale" />
+        <rating-config>
+          <min>1</min>
+          <max>10</max>
+          <default-position>center</default-position>
+          <show-value-on-load>false</show-value-on-load>
+        </rating-config>
+      </step>
+    </scenario>
+
+    <!-- Scénario 4 -->
+    <scenario id="scenario-004" has-rating="true">
+      <scenario-title lang="fr">Scénario 4</scenario-title>
+      
+      <step id="step-004" type="scenario">
+        <order>7</order>
+        <title lang="fr">Scénario 4</title>
+        <content lang="fr">
+          <![CDATA[Vous avez déjà souscrit à une option pour protéger votre ordinateur d'une cyber menace.  
+Vous souhaitez élargir cette protection aux 4 autres ordinateurs de l'entreprise. 
+
+Vous consultez sur la vitrine Orange Pro, les options possibles pour protéger vos ordinateurs.  
+Vous comparez les options proposées en matière de sécurité. 
+
+Faites le nécessaire.]]>
+        </content>
+      </step>
+      
+      <step id="step-004-rating" type="rating">
+        <order>8</order>
+        <title lang="fr">Scénario 4 - Evaluation</title>
+        <content lang="fr" ref="rating.scale" />
+        <rating-config>
+          <min>1</min>
+          <max>10</max>
+          <default-position>center</default-position>
+          <show-value-on-load>false</show-value-on-load>
+        </rating-config>
+      </step>
+    </scenario>
+
+    <!-- Étape finale -->
+    <step id="step-999" type="end">
+      <order>9</order>
+      <title lang="fr">Fin du test</title>
+      <title lang="en">End of test</title>
+      <title lang="es">Fin de la prueba</title>
+      
+      <content lang="fr">Merci de votre participation</content>
+      <content lang="en">Thank you for your participation</content>
+      <content lang="es">Gracias por su participación</content>
+    </step>
+  </journey>
+</test-definition>
