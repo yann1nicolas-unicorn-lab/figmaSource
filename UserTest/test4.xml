@@ -1,0 +1,74 @@
+<!-- xml-file: test4.xml | version: 1.0 | date: 2026-02-14 10:15 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<test id="test-004" version="1.0">
+  <metadata>
+    <title lang="en">OB - Orange Store - E-commerce Checkout Flow</title>
+    <description lang="en">Optimization of the online purchase funnel</description>
+    <duration>17</duration>
+    <difficulty>medium</difficulty>
+  </metadata>
+
+  <steps>
+    <!-- Step 1: Context -->
+    <step id="context" type="text">
+      <title lang="en">Context</title>
+      <content lang="en">Persona: James, 34, small business owner purchasing equipment online between client calls.
+He needs a fast, reliable checkout with clear fees and delivery times.
+
+Test goals:
+- Validate the clarity of the cart and checkout steps.
+- Ensure payment and delivery options are easy to compare.
+- Confirm error handling and recovery paths are clear.</content>
+    </step>
+
+    <!-- Step 2: Add to cart -->
+    <step id="scenario-1" type="scenario">
+      <title lang="en">Add product to cart</title>
+      <content lang="en">From the Orange Store homepage, navigate to a product category.
+Open a product page and add one item to the cart.
+
+Verify that the mini-cart or confirmation clearly shows the updated quantity and subtotal.</content>
+    </step>
+
+    <!-- Step 3: Cart review -->
+    <step id="scenario-2" type="scenario">
+      <title lang="en">Review cart</title>
+      <content lang="en">Open the cart.
+Check product title, quantity, unit price, and total price.
+
+Update the quantity from 1 to 2 and confirm the total updates accordingly.</content>
+    </step>
+
+    <!-- Step 4: Checkout and delivery -->
+    <step id="scenario-3" type="scenario">
+      <title lang="en">Checkout and delivery</title>
+      <content lang="en">Proceed to checkout.
+Enter delivery information and compare available delivery options (costs and estimated dates).
+
+Select the most suitable option and continue to payment.</content>
+    </step>
+
+    <!-- Step 5: Evaluation -->
+    <step id="rating-1" type="rating">
+      <title lang="en">Evaluation</title>
+      <content lang="en">Rate from 1 to 10:
+- Clarity of the cart overview.
+- Ease of selecting a delivery option.
+- Overall checkout experience.</content>
+      <question lang="en">Were fees, taxes, and delivery dates easy to understand at each step?</question>
+    </step>
+  </steps>
+
+  <settings>
+    <auto-save enabled="true" />
+    <navigation>
+      <allow-skip>false</allow-skip>
+      <show-progress>true</show-progress>
+    </navigation>
+    <rating>
+      <min>1</min>
+      <max>10</max>
+      <required>false</required>
+    </rating>
+  </settings>
+</test>
