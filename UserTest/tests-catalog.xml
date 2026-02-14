@@ -8,7 +8,7 @@
         <description lang="fr">Test d'expérience utilisateur sur le parcours de souscription</description>
         <description lang="en">User experience test on the subscription journey</description>
         <xml-file>test1.xml</xml-file>
-        <test-url>/data/test1.xml</test-url>
+        <test-url>/https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test1.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
