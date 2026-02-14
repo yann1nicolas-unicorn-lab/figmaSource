@@ -1,0 +1,113 @@
+<!-- xml-file: test2.xml | version: 1.0 | date: 2026-02-14 10:05 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<test id="test-002" version="1.0">
+  <metadata>
+    <title lang="fr">Vibe - Mobile App - Test Navigation Mobile</title>
+    <title lang="en">Vibe - Mobile App - Mobile Navigation Test</title>
+    <description lang="fr">Évaluation de l'ergonomie mobile</description>
+    <description lang="en">Mobile ergonomics evaluation</description>
+    <duration>16</duration>
+    <difficulty>medium</difficulty>
+  </metadata>
+
+  <steps>
+    <!-- Étape 1: Contexte -->
+    <step id="context" type="text">
+      <title lang="fr">Contexte</title>
+      <title lang="en">Context</title>
+      <content lang="fr">Persona: Amine, 29 ans, commercial itinérant. Il utilise l'app mobile pour consulter des offres, créer des paniers rapides et suivre ses commandes entre deux rendez‑vous.
+
+Objectifs du test:
+- Évaluer la fluidité de la navigation principale.
+- Vérifier l’accès rapide aux fonctions clés (recherche, panier, suivi).
+- Mesurer la compréhension des libellés et des icônes.</content>
+      <content lang="en">Persona: Amine, 29, field sales rep. He uses the mobile app to browse offers, create quick carts, and track orders between meetings.
+
+Test goals:
+- Assess the smoothness of main navigation.
+- Verify quick access to key features (search, cart, tracking).
+- Measure comprehension of labels and icons.</content>
+    </step>
+
+    <!-- Étape 2: Accéder aux catégories -->
+    <step id="scenario-1" type="scenario">
+      <title lang="fr">Accéder aux catégories</title>
+      <title lang="en">Access categories</title>
+      <content lang="fr">Depuis l’écran d’accueil, utilisez le menu principal (onglets ou hamburger) pour atteindre la catégorie « Offres ».
+
+Repérez les sous‑catégories et identifiez la plus pertinente pour un achat rapide.</content>
+      <content lang="en">From the home screen, use the main menu (tabs or hamburger) to reach the “Offers” category.
+
+Spot the subcategories and identify the most relevant for a quick purchase.</content>
+    </step>
+
+    <!-- Étape 3: Recherche et filtres -->
+    <step id="scenario-2" type="scenario">
+      <title lang="fr">Recherche et filtres</title>
+      <title lang="en">Search and filters</title>
+      <content lang="fr">Lancez une recherche par mot‑clé. 
+Appliquez au moins un filtre (ex: prix, disponibilité).
+
+Vérifiez que les résultats correspondent à l’intention et que les filtres sont visibles et faciles à retirer.</content>
+      <content lang="en">Start a keyword search.
+Apply at least one filter (e.g., price, availability).
+
+Check that results match the intent and that filters are visible and easy to remove.</content>
+    </step>
+
+    <!-- Étape 4: Parcours produit -->
+    <step id="scenario-3" type="scenario">
+      <title lang="fr">Parcours produit</title>
+      <title lang="en">Product journey</title>
+      <content lang="fr">Ouvrez une fiche produit.
+Consultez les sections clés (visuels, caractéristiques, avis).
+
+Ajoutez le produit au panier puis revenez à la liste sans perdre le contexte.</content>
+      <content lang="en">Open a product page.
+Review key sections (media, specs, reviews).
+
+Add the product to the cart then return to the list without losing context.</content>
+    </step>
+
+    <!-- Étape 5: Accès panier et récap -->
+    <step id="scenario-4" type="scenario">
+      <title lang="fr">Accès panier et récapitulatif</title>
+      <title lang="en">Cart access and summary</title>
+      <content lang="fr">Accédez au panier depuis l’icône dédiée.
+
+Vérifiez les éléments affichés (intitulé, quantité, prix total) et modifiez la quantité d’un article si nécessaire.</content>
+      <content lang="en">Open the cart from the dedicated icon.
+
+Verify displayed elements (title, quantity, total price) and edit an item’s quantity if needed.</content>
+    </step>
+
+    <!-- Étape 6: Évaluation de la navigation -->
+    <step id="rating-1" type="rating">
+      <title lang="fr">Évaluation de la navigation</title>
+      <title lang="en">Navigation evaluation</title>
+      <content lang="fr">Donnez une note, de 1 à 10, pour chacun des points:
+- Clarté des libellés et des icônes.
+- Facilité d’accès aux catégories et au panier.
+- Simplicité d’utilisation de la recherche et des filtres.</content>
+      <content lang="en">Rate, from 1 to 10, each of the following:
+- Clarity of labels and icons.
+- Ease of accessing categories and cart.
+- Simplicity of using search and filters.</content>
+      <question lang="fr">Avez‑vous ressenti des frictions (latence, retours inattendus, perte de contexte) ?</question>
+      <question lang="en">Did you experience friction (latency, unexpected back behavior, context loss)?</question>
+    </step>
+  </steps>
+
+  <settings>
+    <auto-save enabled="true" />
+    <navigation>
+      <allow-skip>false</allow-skip>
+      <show-progress>true</show-progress>
+    </navigation>
+    <rating>
+      <min>1</min>
+      <max>10</max>
+      <required>false</required>
+    </rating>
+  </settings>
+</test>
