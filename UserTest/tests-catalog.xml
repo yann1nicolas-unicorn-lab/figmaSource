@@ -8,6 +8,7 @@
         <description lang="fr">Test d'expérience utilisateur sur le parcours de souscription</description>
         <description lang="en">User experience test on the subscription journey</description>
         <xml-file>test1.xml</xml-file>
+        <test-url>/data/test1.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -30,6 +31,7 @@
         <description lang="fr">Évaluation de l'ergonomie mobile</description>
         <description lang="en">Mobile ergonomics evaluation</description>
         <xml-file>test2.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test2.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -52,6 +54,7 @@
         <description lang="fr">Test d'utilisabilité du tableau de bord analytique</description>
         <description lang="en">Usability test of the analytics dashboard</description>
         <xml-file>test3.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test3.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -72,6 +75,7 @@
         <name lang="en">E-commerce Checkout Flow</name>
         <description lang="en">Optimization of the online purchase funnel</description>
         <xml-file>test4.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test4.xml</test-url>
         <available-languages>
           <language>en</language>
         </available-languages>
@@ -91,6 +95,7 @@
         <name lang="fr">Processus d'Intégration</name>
         <description lang="fr">Parcours d'intégration des nouveaux utilisateurs</description>
         <xml-file>test5.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test5.xml</test-url>
         <available-languages>
           <language>fr</language>
         </available-languages>
@@ -112,6 +117,7 @@
         <description lang="fr">Évaluation de la fonction de recherche avancée</description>
         <description lang="en">Advanced search function evaluation</description>
         <xml-file>test6.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test6.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -132,6 +138,7 @@
         <name lang="en">Payment Gateway UX</name>
         <description lang="en">User experience on the payment platform</description>
         <xml-file>test7.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test7.xml</test-url>
         <available-languages>
           <language>en</language>
         </available-languages>
@@ -153,6 +160,7 @@
         <description lang="fr">Test du système de notifications push et email</description>
         <description lang="en">Push and email notification system test</description>
         <xml-file>test8.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test8.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -173,6 +181,7 @@
         <name lang="fr">Support Multilingue</name>
         <description lang="fr">Validation de l'internationalisation multilingue</description>
         <xml-file>test9.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test9.xml</test-url>
         <available-languages>
           <language>fr</language>
         </available-languages>
@@ -194,6 +203,7 @@
         <description lang="fr">Audit d'accessibilité WCAG 2.1 niveau AA</description>
         <description lang="en">WCAG 2.1 Level AA accessibility audit</description>
         <xml-file>test10.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test10.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -214,6 +224,7 @@
         <name lang="en">Video Streaming Quality</name>
         <description lang="en">HD and 4K video streaming quality test</description>
         <xml-file>test11.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test11.xml</test-url>
         <available-languages>
           <language>en</language>
         </available-languages>
@@ -235,6 +246,7 @@
         <description lang="fr">Fonctionnalités de partage sur les réseaux sociaux</description>
         <description lang="en">Social network sharing features</description>
         <xml-file>test12.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test12.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
@@ -257,6 +269,7 @@
         <description lang="fr">Interface de chat en direct avec support client</description>
         <description lang="en">Live chat interface with customer support</description>
         <xml-file>test13.xml</xml-file>
+        <test-url>https://raw.githubusercontent.com/yann1nicolas-unicorn-lab/figmaSource/refs/heads/main/UserTest/test13.xml</test-url>
         <available-languages>
           <language>fr</language>
           <language>en</language>
