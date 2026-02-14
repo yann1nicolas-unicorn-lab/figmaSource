@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests-catalog>
   <available-tests>
-    <test id="test-001" enabled="false">
+    <test id="test-001" enabled="true">
       <general-info>
-        <name>Test UX Orange Pro</name>
-        <description>Test d'expérience utilisateur sur le parcours de souscription</description>
+        <name lang="fr">Test UX Orange Pro</name>
+        <name lang="en">Orange Pro UX Test</name>
+        <description lang="fr">Test d'expérience utilisateur sur le parcours de souscription</description>
+        <description lang="en">User experience test on the subscription journey</description>
         <xml-file>test1.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
@@ -19,9 +25,15 @@
     </test>
     <test id="test-002" enabled="true">
       <general-info>
-        <name>Mobile Navigation Test</name>
-        <description>Évaluation de l'ergonomie mobile</description>
+        <name lang="fr">Test Navigation Mobile</name>
+        <name lang="en">Mobile Navigation Test</name>
+        <description lang="fr">Évaluation de l'ergonomie mobile</description>
+        <description lang="en">Mobile ergonomics evaluation</description>
         <xml-file>test2.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>external</test-type>
@@ -35,9 +47,15 @@
     </test>
     <test id="test-003" enabled="true">
       <general-info>
-        <name>Dashboard Analytics UX</name>
-        <description>Test d'utilisabilité du tableau de bord analytique</description>
+        <name lang="fr">Tableau de Bord Analytique</name>
+        <name lang="en">Dashboard Analytics UX</name>
+        <description lang="fr">Test d'utilisabilité du tableau de bord analytique</description>
+        <description lang="en">Usability test of the analytics dashboard</description>
         <xml-file>test3.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
@@ -51,9 +69,12 @@
     </test>
     <test id="test-004" enabled="true">
       <general-info>
-        <name>E-commerce Checkout Flow</name>
-        <description>Optimisation du tunnel d'achat en ligne</description>
+        <name lang="en">E-commerce Checkout Flow</name>
+        <description lang="en">Optimization of the online purchase funnel</description>
         <xml-file>test4.xml</xml-file>
+        <available-languages>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>external</test-type>
@@ -67,9 +88,12 @@
     </test>
     <test id="test-005" enabled="true">
       <general-info>
-        <name>Onboarding Process</name>
-        <description>Parcours d'intégration des nouveaux utilisateurs</description>
+        <name lang="fr">Processus d'Intégration</name>
+        <description lang="fr">Parcours d'intégration des nouveaux utilisateurs</description>
         <xml-file>test5.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
@@ -83,9 +107,15 @@
     </test>
     <test id="test-006" enabled="true">
       <general-info>
-        <name>Search Functionality Test</name>
-        <description>Évaluation de la fonction de recherche avancée</description>
+        <name lang="fr">Test Fonction de Recherche</name>
+        <name lang="en">Search Functionality Test</name>
+        <description lang="fr">Évaluation de la fonction de recherche avancée</description>
+        <description lang="en">Advanced search function evaluation</description>
         <xml-file>test6.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>external</test-type>
@@ -99,9 +129,12 @@
     </test>
     <test id="test-007" enabled="true">
       <general-info>
-        <name>Payment Gateway UX</name>
-        <description>Expérience utilisateur sur la plateforme de paiement</description>
+        <name lang="en">Payment Gateway UX</name>
+        <description lang="en">User experience on the payment platform</description>
         <xml-file>test7.xml</xml-file>
+        <available-languages>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
@@ -115,9 +148,15 @@
     </test>
     <test id="test-008" enabled="true">
       <general-info>
-        <name>Notification System</name>
-        <description>Test du système de notifications push et email</description>
+        <name lang="fr">Système de Notifications</name>
+        <name lang="en">Notification System</name>
+        <description lang="fr">Test du système de notifications push et email</description>
+        <description lang="en">Push and email notification system test</description>
         <xml-file>test8.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>external</test-type>
@@ -131,9 +170,12 @@
     </test>
     <test id="test-009" enabled="true">
       <general-info>
-        <name>Multi-language Support</name>
-        <description>Validation de l'internationalisation multilingue</description>
+        <name lang="fr">Support Multilingue</name>
+        <description lang="fr">Validation de l'internationalisation multilingue</description>
         <xml-file>test9.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
@@ -147,9 +189,15 @@
     </test>
     <test id="test-010" enabled="true">
       <general-info>
-        <name>Accessibility Compliance</name>
-        <description>Audit d'accessibilité WCAG 2.1 niveau AA</description>
+        <name lang="fr">Conformité Accessibilité</name>
+        <name lang="en">Accessibility Compliance</name>
+        <description lang="fr">Audit d'accessibilité WCAG 2.1 niveau AA</description>
+        <description lang="en">WCAG 2.1 Level AA accessibility audit</description>
         <xml-file>test10.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>external</test-type>
@@ -163,9 +211,12 @@
     </test>
     <test id="test-011" enabled="true">
       <general-info>
-        <name>Video Streaming Quality</name>
-        <description>Test de la qualité de streaming vidéo HD et 4K</description>
+        <name lang="en">Video Streaming Quality</name>
+        <description lang="en">HD and 4K video streaming quality test</description>
         <xml-file>test11.xml</xml-file>
+        <available-languages>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
@@ -179,9 +230,15 @@
     </test>
     <test id="test-012" enabled="true">
       <general-info>
-        <name>Social Sharing Features</name>
-        <description>Fonctionnalités de partage sur les réseaux sociaux</description>
+        <name lang="fr">Partage sur Réseaux Sociaux</name>
+        <name lang="en">Social Sharing Features</name>
+        <description lang="fr">Fonctionnalités de partage sur les réseaux sociaux</description>
+        <description lang="en">Social network sharing features</description>
         <xml-file>test12.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>external</test-type>
@@ -195,9 +252,15 @@
     </test>
     <test id="test-013" enabled="true">
       <general-info>
-        <name>Customer Support Chat</name>
-        <description>Interface de chat en direct avec support client</description>
+        <name lang="fr">Chat Support Client</name>
+        <name lang="en">Customer Support Chat</name>
+        <description lang="fr">Interface de chat en direct avec support client</description>
+        <description lang="en">Live chat interface with customer support</description>
         <xml-file>test13.xml</xml-file>
+        <available-languages>
+          <language>fr</language>
+          <language>en</language>
+        </available-languages>
       </general-info>
       <test-management>
         <test-type>internal</test-type>
