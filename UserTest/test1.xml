@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- xml-file: test1.xml | version: 1.0 | date: 2026-02-14 10:00 -->
 <test id="test-001" version="1.0">
   <metadata>
     <title lang="fr">OB - Orange Pro - Test UX Orange Pro</title>
@@ -15,103 +16,93 @@
       <title lang="fr">Contexte</title>
       <title lang="en">Context</title>
       <content lang="fr">Persona: Claire, 42 ans, responsable IT dans une PME de 25 salariés.
-Elle gère la cybersécurité et doit rapidement comparer et choisir une protection adaptée pour l'ensemble du parc informatique.
+Elle pilote la cybersécurité et doit équiper rapidement l'ensemble des postes avec une solution adaptée.
 
-Objectif du test: Évaluer la facilité à comprendre l'offre,
-comparer les options,
-et confirmer un panier sans ambiguïté.</content>
+Objectif du test:
+- Évaluer la facilité à découvrir les offres pertinentes.
+- Comparer clairement deux niveaux de protection.
+- Configurer un panier pour plusieurs ordinateurs sans ambiguïté.</content>
       <content lang="en">Persona: Claire, 42, IT manager in a 25-employee SMB.
-She oversees cybersecurity and needs to quickly compare and select protection for the entire device fleet.
+She oversees cybersecurity and must quickly equip all workstations with an appropriate solution.
 
-Test goal: Assess ease of understanding the offer,
-comparing options,
-and confirming a cart without ambiguity.</content>
+Test goals:
+- Assess how easy it is to discover relevant offers.
+- Clearly compare two protection tiers.
+- Configure a cart for multiple computers without ambiguity.</content>
     </step>
 
-    <!-- Étape 2: Scénario 1 -->
+    <!-- Étape 2: Découverte des offres -->
     <step id="scenario-1" type="scenario">
       <title lang="fr">Découverte des offres</title>
       <title lang="en">Discovering the offers</title>
-      <content lang="fr">Depuis la vitrine Orange Pro, accédez à la catégorie Sécurité.
+      <content lang="fr">Depuis la vitrine Orange Pro, accédez à la catégorie « Sécurité ».
 
 Identifiez l'option « Cyber Protection Premium » et localisez l'option « Cyber Protection Standard »,
-pour préparer une comparaison.</content>
-      <content lang="en">From the Orange Pro storefront, go to the Security category.
+afin de préparer une comparaison.</content>
+      <content lang="en">From the Orange Pro storefront, go to the “Security” category.
 
-Locate the “Cyber Protection Premium” option and the “Cyber Protection Standard” option,
+Locate the “Cyber Protection Premium” option and the “Cyber Protection Standard” option
 to prepare a comparison.</content>
     </step>
 
-    <!-- Étape 3: Évaluation Scénario 1 -->
-    <step id="rating-1" type="rating">
-      <title lang="fr">Clarté de la découverte</title>
-      <title lang="en">Clarity of discovery</title>
-      <content lang="fr">Donnez une note, sur une échelle de 1 à 10,
-à la facilité de trouver les deux offres.</content>
-      <content lang="en">Rate, on a scale from 1 to 10,
-how easy it was to find both offers.</content>
-      <question lang="fr">Les libellés et la hiérarchie de contenu
-étaient-ils suffisamment explicites ?</question>
-      <question lang="en">Were labels and content hierarchy
-sufficiently explicit?</question>
-    </step>
-
-    <!-- Étape 4: Scénario 2 -->
+    <!-- Étape 3: Comparer Premium vs Standard -->
     <step id="scenario-2" type="scenario">
       <title lang="fr">Comparer Premium vs Standard</title>
       <title lang="en">Compare Premium vs Standard</title>
       <content lang="fr">Ouvrez les fiches « Cyber Protection Premium » et « Cyber Protection Standard ».
 
-Identifiez 3 différences clés
-(ex: couverture postes, anti-ransomware, assistance).</content>
+Identifiez 3 différences clés (ex: couverture postes, anti‑ransomware, assistance).
+Repérez les éléments visuels qui aident à la comparaison (tableaux, puces, pictos).</content>
       <content lang="en">Open the “Cyber Protection Premium” and “Cyber Protection Standard” product pages.
 
-Identify 3 key differences
-(e.g., devices coverage, anti-ransomware, support).</content>
+Identify 3 key differences (e.g., device coverage, anti‑ransomware, support).
+Spot visual elements that help comparison (tables, bullets, icons).</content>
     </step>
 
-    <!-- Étape 5: Évaluation Scénario 2 -->
-    <step id="rating-2" type="rating">
-      <title lang="fr">Évaluation de la comparaison</title>
-      <title lang="en">Comparison evaluation</title>
-      <content lang="fr">Donnez une note, sur 1 à 10,
-à la facilité de comparer ces deux offres.</content>
-      <content lang="en">Rate, from 1 to 10,
-the ease of comparing these two offers.</content>
-      <question lang="fr">Les différences étaient-elles visibles sans effort
-(tableau, puces, mise en avant) ?</question>
-      <question lang="en">Were the differences clearly visible
-(table, bullets, highlights)?</question>
-    </step>
-
-    <!-- Étape 6: Scénario 3 -->
+    <!-- Étape 4: Configuration pour 5 ordinateurs -->
     <step id="scenario-3" type="scenario">
       <title lang="fr">Configuration pour 5 ordinateurs</title>
       <title lang="en">Configure for 5 computers</title>
-      <content lang="fr">Depuis la page « Cyber Protection Premium »,
-sélectionnez une quantité correspondant à 5 ordinateurs
-et ajoutez l'offre au panier.
+      <content lang="fr">Depuis la page « Cyber Protection Premium », sélectionnez une quantité correspondant à 5 ordinateurs,
+puis ajoutez l'offre au panier.
 
-Vérifiez le total affiché.</content>
-      <content lang="en">From the “Cyber Protection Premium” page,
-select a quantity for 5 computers
-and add the offer to the cart.
+Vérifiez le total affiché et la cohérence du détail (prix unitaire x quantité + taxes éventuelles).</content>
+      <content lang="en">From the “Cyber Protection Premium” page, select a quantity for 5 computers,
+then add the offer to the cart.
 
-Verify the displayed total.</content>
+Check the displayed total and the breakdown consistency (unit price x quantity + possible taxes).</content>
     </step>
 
-    <!-- Étape 7: Évaluation Scénario 3 -->
-    <step id="rating-3" type="rating">
-      <title lang="fr">Clarté du panier</title>
-      <title lang="en">Cart clarity</title>
-      <content lang="fr">Donnez une note, de 1 à 10,
-à la compréhension du prix total pour 5 postes.</content>
-      <content lang="en">Rate, from 1 to 10,
-how clear the total price for 5 devices was.</content>
-      <question lang="fr">Le décompte (prix unitaire x quantité + taxes)
-était-il explicite ?</question>
-      <question lang="en">Was the breakdown (unit price x quantity + taxes)
-explicit?</question>
+    <!-- Étape 5: Accéder aux informations techniques -->
+    <step id="scenario-4" type="scenario">
+      <title lang="fr">Accéder aux informations techniques</title>
+      <title lang="en">Access technical information</title>
+      <content lang="fr">Accédez aux détails techniques de « Cyber Protection Premium ».
+
+Trouvez l'information sur la protection anti‑ransomware incluse
+et vérifiez la compatibilité avec macOS et Windows.</content>
+      <content lang="en">Access the technical details of “Cyber Protection Premium”.
+
+Find information about the included anti‑ransomware protection
+and verify compatibility with macOS and Windows.</content>
+    </step>
+
+    <!-- Étape 6: Évaluations -->
+    <step id="rating-1" type="rating">
+      <title lang="fr">Évaluations</title>
+      <title lang="en">Evaluations</title>
+      <content lang="fr">Donnez une note, sur une échelle de 1 à 10,
+pour chacun des points suivants:
+- Facilité de découverte des offres.
+- Clarté de la comparaison Premium vs Standard.
+- Compréhension du prix total pour 5 postes.</content>
+      <content lang="en">Rate, on a scale from 1 to 10,
+each of the following:
+- Ease of discovering the offers.
+- Clarity of the Premium vs Standard comparison.
+- Understanding of the total price for 5 devices.</content>
+      <question lang="fr">Les libellés, tableaux ou mises en avant vous ont‑ils aidé à comparer rapidement ?</question>
+      <question lang="en">Did labels, tables, or highlights help you compare quickly?</question>
     </step>
   </steps>
 
