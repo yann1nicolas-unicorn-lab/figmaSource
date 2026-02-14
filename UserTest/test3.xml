@@ -1,0 +1,113 @@
+<!-- xml-file: test3.xml | version: 1.0 | date: 2026-02-14 10:10 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<test id="test-003" version="1.0">
+  <metadata>
+    <title lang="fr">Vibe - BI Suite - Tableau de Bord Analytique</title>
+    <title lang="en">Vibe - BI Suite - Dashboard Analytics UX</title>
+    <description lang="fr">Test d'utilisabilité du tableau de bord analytique</description>
+    <description lang="en">Usability test of the analytics dashboard</description>
+    <duration>20</duration>
+    <difficulty>medium</difficulty>
+  </metadata>
+
+  <steps>
+    <!-- Étape 1: Contexte -->
+    <step id="context" type="text">
+      <title lang="fr">Contexte</title>
+      <title lang="en">Context</title>
+      <content lang="fr">Persona: Nadia, 37 ans, analyste métier dans une organisation multi‑filiales.
+Elle consulte quotidiennement un tableau de bord pour suivre les KPIs (ventes, churn, NPS) et préparer un point hebdomadaire.
+
+Objectifs du test:
+- Vérifier la lisibilité des visualisations et des légendes.
+- Évaluer l’efficacité des filtres et du drill‑down.
+- Mesurer la facilité d’export et de partage des insights.</content>
+      <content lang="en">Persona: Nadia, 37, business analyst in a multi‑subsidiary organization.
+She reviews a dashboard daily to track KPIs (sales, churn, NPS) and prepare a weekly briefing.
+
+Test goals:
+- Check readability of visualizations and legends.
+- Assess filter efficiency and drill‑down.
+- Measure ease of export and sharing insights.</content>
+    </step>
+
+    <!-- Étape 2: Filtrer par période et région -->
+    <step id="scenario-1" type="scenario">
+      <title lang="fr">Filtrer par période et région</title>
+      <title lang="en">Filter by period and region</title>
+      <content lang="fr">Appliquez un filtre sur le dernier trimestre et sélectionnez une région spécifique.
+
+Vérifiez que tous les graphiques et KPIs se mettent à jour de façon cohérente (titres, axes, totaux).</content>
+      <content lang="en">Apply a filter for the last quarter and select a specific region.
+
+Verify that all charts and KPIs update consistently (titles, axes, totals).</content>
+    </step>
+
+    <!-- Étape 3: Drill‑down sur une carte des ventes -->
+    <step id="scenario-2" type="scenario">
+      <title lang="fr">Drill‑down sur une carte des ventes</title>
+      <title lang="en">Drill‑down on a sales map</title>
+      <content lang="fr">Depuis la carte des ventes, zoomez jusqu’au niveau département/ville.
+
+Identifiez le top 3 des zones et ouvrez le détail d’une zone pour voir la répartition par produit.</content>
+      <content lang="en">From the sales map, zoom down to department/city level.
+
+Identify the top 3 areas and open one area detail to see product breakdown.</content>
+    </step>
+
+    <!-- Étape 4: Comparer deux segments -->
+    <step id="scenario-3" type="scenario">
+      <title lang="fr">Comparer deux segments</title>
+      <title lang="en">Compare two segments</title>
+      <content lang="fr">Activez un comparateur (ex: nouveaux vs existants, B2B vs B2C).
+
+Vérifiez que la légende, les couleurs et les unités restent claires
+et notez une différence clé entre les segments.</content>
+      <content lang="en">Enable a comparator (e.g., new vs existing, B2B vs B2C).
+
+Verify that legend, colors, and units remain clear
+and note one key difference between segments.</content>
+    </step>
+
+    <!-- Étape 5: Sauvegarde d’une vue et partage -->
+    <step id="scenario-4" type="scenario">
+      <title lang="fr">Sauvegarder et partager une vue</title>
+      <title lang="en">Save and share a view</title>
+      <content lang="fr">Sauvegardez la configuration de filtres actuelle comme « Vue hebdo – Q‑1 – Région X ».
+
+Partagez‑la avec un collègue via le lien/partage intégré et vérifiez les droits d’accès.</content>
+      <content lang="en">Save the current filter configuration as “Weekly view – Q‑1 – Region X”.
+
+Share it with a colleague using the built‑in link/share and verify access rights.</content>
+    </step>
+
+    <!-- Étape 6: Évaluations -->
+    <step id="rating-1" type="rating">
+      <title lang="fr">Évaluations</title>
+      <title lang="en">Evaluations</title>
+      <content lang="fr">Attribuez une note, de 1 à 10, pour:
+- Clarté des visualisations et légendes.
+- Efficacité des filtres et du drill‑down.
+- Simplicité de sauvegarde et de partage.</content>
+      <content lang="en">Give a rating, from 1 to 10, for:
+- Visualization and legend clarity.
+- Filter and drill‑down efficiency.
+- Ease of saving and sharing.</content>
+      <question lang="fr">Avez‑vous identifié des ambiguïtés (unités, couleurs, intitulés) lors des comparaisons ?</question>
+      <question lang="en">Did you find ambiguities (units, colors, labels) during comparisons?</question>
+    </step>
+  </steps>
+
+  <settings>
+    <auto-save enabled="true" />
+    <navigation>
+      <allow-skip>false</allow-skip>
+      <show-progress>true</show-progress>
+    </navigation>
+    <rating>
+      <min>1</min>
+      <max>10</max>
+      <required>false</required>
+    </rating>
+  </settings>
+</test>
