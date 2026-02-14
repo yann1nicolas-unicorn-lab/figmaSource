@@ -14,64 +14,104 @@
     <step id="context" type="text">
       <title lang="fr">Contexte</title>
       <title lang="en">Context</title>
-      <content lang="fr">Persona: Claire, 42 ans, responsable IT dans une PME de 25 salariés. Elle gère la cybersécurité et doit rapidement comparer et choisir une protection adaptée pour l'ensemble du parc informatique.
-Objectif du test: Évaluer la facilité à comprendre l'offre, comparer les options et confirmer un panier sans ambiguïté.</content>
-      <content lang="en">Persona: Claire, 42, IT manager in a 25-employee SMB. She oversees cybersecurity and needs to quickly compare and select protection for the entire device fleet.
-Test goal: Assess ease of understanding the offer, comparing options, and confirming a cart without ambiguity.</content>
+      <content lang="fr">Persona: Claire, 42 ans, responsable IT dans une PME de 25 salariés.
+Elle gère la cybersécurité et doit rapidement comparer et choisir une protection adaptée pour l'ensemble du parc informatique.
+
+Objectif du test: Évaluer la facilité à comprendre l'offre,
+comparer les options,
+et confirmer un panier sans ambiguïté.</content>
+      <content lang="en">Persona: Claire, 42, IT manager in a 25-employee SMB.
+She oversees cybersecurity and needs to quickly compare and select protection for the entire device fleet.
+
+Test goal: Assess ease of understanding the offer,
+comparing options,
+and confirming a cart without ambiguity.</content>
     </step>
 
     <!-- Étape 2: Scénario 1 -->
     <step id="scenario-1" type="scenario">
       <title lang="fr">Découverte des offres</title>
       <title lang="en">Discovering the offers</title>
-      <content lang="fr">Depuis la vitrine Orange Pro, accédez à la catégorie Sécurité. Identifiez l'option « Cyber Protection Premium » et localisez l'option « Cyber Protection Standard » pour préparer une comparaison.</content>
-      <content lang="en">From the Orange Pro storefront, go to the Security category. Locate the “Cyber Protection Premium” option and the “Cyber Protection Standard” option to prepare a comparison.</content>
+      <content lang="fr">Depuis la vitrine Orange Pro, accédez à la catégorie Sécurité.
+
+Identifiez l'option « Cyber Protection Premium » et localisez l'option « Cyber Protection Standard »,
+pour préparer une comparaison.</content>
+      <content lang="en">From the Orange Pro storefront, go to the Security category.
+
+Locate the “Cyber Protection Premium” option and the “Cyber Protection Standard” option,
+to prepare a comparison.</content>
     </step>
 
     <!-- Étape 3: Évaluation Scénario 1 -->
     <step id="rating-1" type="rating">
       <title lang="fr">Clarté de la découverte</title>
       <title lang="en">Clarity of discovery</title>
-      <content lang="fr">Donnez une note, sur une échelle de 1 à 10, à la facilité de trouver les deux offres.</content>
-      <content lang="en">Rate, on a scale from 1 to 10, how easy it was to find both offers.</content>
-      <question lang="fr">Les libellés et la hiérarchie de contenu étaient-ils suffisamment explicites ?</question>
-      <question lang="en">Were labels and content hierarchy sufficiently explicit?</question>
+      <content lang="fr">Donnez une note, sur une échelle de 1 à 10,
+à la facilité de trouver les deux offres.</content>
+      <content lang="en">Rate, on a scale from 1 to 10,
+how easy it was to find both offers.</content>
+      <question lang="fr">Les libellés et la hiérarchie de contenu
+étaient-ils suffisamment explicites ?</question>
+      <question lang="en">Were labels and content hierarchy
+sufficiently explicit?</question>
     </step>
 
     <!-- Étape 4: Scénario 2 -->
     <step id="scenario-2" type="scenario">
       <title lang="fr">Comparer Premium vs Standard</title>
       <title lang="en">Compare Premium vs Standard</title>
-      <content lang="fr">Ouvrez les fiches « Cyber Protection Premium » et « Cyber Protection Standard ». Identifiez 3 différences clés (ex: couverture postes, anti-ransomware, assistance).</content>
-      <content lang="en">Open the “Cyber Protection Premium” and “Cyber Protection Standard” product pages. Identify 3 key differences (e.g., devices coverage, anti-ransomware, support).</content>
+      <content lang="fr">Ouvrez les fiches « Cyber Protection Premium » et « Cyber Protection Standard ».
+
+Identifiez 3 différences clés
+(ex: couverture postes, anti-ransomware, assistance).</content>
+      <content lang="en">Open the “Cyber Protection Premium” and “Cyber Protection Standard” product pages.
+
+Identify 3 key differences
+(e.g., devices coverage, anti-ransomware, support).</content>
     </step>
 
     <!-- Étape 5: Évaluation Scénario 2 -->
     <step id="rating-2" type="rating">
       <title lang="fr">Évaluation de la comparaison</title>
       <title lang="en">Comparison evaluation</title>
-      <content lang="fr">Donnez une note, sur 1 à 10, à la facilité de comparer ces deux offres.</content>
-      <content lang="en">Rate, from 1 to 10, the ease of comparing these two offers.</content>
-      <question lang="fr">Les différences étaient-elles visibles sans effort (tableau, puces, mise en avant) ?</question>
-      <question lang="en">Were the differences clearly visible (table, bullets, highlights)?</question>
+      <content lang="fr">Donnez une note, sur 1 à 10,
+à la facilité de comparer ces deux offres.</content>
+      <content lang="en">Rate, from 1 to 10,
+the ease of comparing these two offers.</content>
+      <question lang="fr">Les différences étaient-elles visibles sans effort
+(tableau, puces, mise en avant) ?</question>
+      <question lang="en">Were the differences clearly visible
+(table, bullets, highlights)?</question>
     </step>
 
     <!-- Étape 6: Scénario 3 -->
     <step id="scenario-3" type="scenario">
       <title lang="fr">Configuration pour 5 ordinateurs</title>
       <title lang="en">Configure for 5 computers</title>
-      <content lang="fr">Depuis la page « Cyber Protection Premium », sélectionnez une quantité correspondant à 5 ordinateurs et ajoutez l'offre au panier. Vérifiez le total affiché.</content>
-      <content lang="en">From the “Cyber Protection Premium” page, select a quantity for 5 computers and add the offer to the cart. Verify the displayed total.</content>
+      <content lang="fr">Depuis la page « Cyber Protection Premium »,
+sélectionnez une quantité correspondant à 5 ordinateurs
+et ajoutez l'offre au panier.
+
+Vérifiez le total affiché.</content>
+      <content lang="en">From the “Cyber Protection Premium” page,
+select a quantity for 5 computers
+and add the offer to the cart.
+
+Verify the displayed total.</content>
     </step>
 
     <!-- Étape 7: Évaluation Scénario 3 -->
     <step id="rating-3" type="rating">
       <title lang="fr">Clarté du panier</title>
       <title lang="en">Cart clarity</title>
-      <content lang="fr">Donnez une note, de 1 à 10, à la compréhension du prix total pour 5 postes.</content>
-      <content lang="en">Rate, from 1 to 10, how clear the total price for 5 devices was.</content>
-      <question lang="fr">Le décompte (prix unitaire x quantité + taxes) était-il explicite ?</question>
-      <question lang="en">Was the breakdown (unit price x quantity + taxes) explicit?</question>
+      <content lang="fr">Donnez une note, de 1 à 10,
+à la compréhension du prix total pour 5 postes.</content>
+      <content lang="en">Rate, from 1 to 10,
+how clear the total price for 5 devices was.</content>
+      <question lang="fr">Le décompte (prix unitaire x quantité + taxes)
+était-il explicite ?</question>
+      <question lang="en">Was the breakdown (unit price x quantity + taxes)
+explicit?</question>
     </step>
   </steps>
 
